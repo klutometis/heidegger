@@ -13,39 +13,42 @@ def clean_djvu_text(text):
     """
     Main preprocessing pipeline for DJVU text cleanup.
     """
-    # Step 1: Fix page break artifacts
-    text = rejoin_split_text(text)
-    text = remove_standalone_page_numbers(text)
+    # Step 1: Remove footnotes FIRST (before rejoining splits them)
+    text = remove_footnotes(text)
     
-    # Step 2: Clean hyphenation and formatting
+    # Step 2: Fix page break artifacts (includes removing standalone page numbers)
+    text = rejoin_split_text(text)
+    
+    # Step 3: Clean hyphenation and formatting
     text = fix_hyphenation(text)
     text = clean_whitespace(text)
     
-    # Step 3: Mark structural elements
+    # Step 4: Convert footnotes to endnotes (DISABLED - footnotes removed above)
+    # text = convert_to_endnotes(text)
+    
+    # Step 5: Mark structural elements
     text = mark_sections(text)
     
     return text
 
 def rejoin_split_text(text):
     """
-    Rejoin text split across page breaks.
-    Example: "be-\n\n6\n\ndarf" -> "bedarf"
-    Example: "ihre Wurzel\n\n3\n\nin der" -> "ihre Wurzel in der"
-    Example: "definition.\n\n5\n\n## § 2." -> "definition. ## § 2."
+    Join text split by page numbers while preserving paragraph boundaries.
     """
-    # Case 1: Ends with hyphen - join without space
-    text = re.sub(r'(.)-\s*\n\n\d+\s*\n\n(.)', r'\1\2', text)
+    # Step 1: Find text + whitespace + page number + whitespace + text patterns
+    # and join them with a single space
+    text = re.sub(r'(\w)\s*\n+\s*\d+\s*\n+\s*(\w)', r'\1 \2', text)
     
-    # Case 2: Doesn't end with hyphen - join with space
-    text = re.sub(r'([^-])\s*\n\n\d+\s*\n\n(.)', r'\1 \2', text)
+    # Step 2: Clean up any remaining standalone page numbers
+    text = re.sub(r'\s+\d+\s+', ' ', text)
     
     return text
 
-def remove_standalone_page_numbers(text):
-    """Remove standalone page numbers that aren't part of citations."""
-    # Remove page numbers that are isolated on their own lines
-    # But preserve them in citations like "Met. B 4, 1001 a 21"
-    text = re.sub(r'\n\n\d+\n\n', '\n\n', text)
+def remove_footnotes(text):
+    """Remove footnote blocks entirely before processing page breaks."""
+    # Single digit + space + actual content (footnotes only)
+    # This avoids removing page numbers like "200 " with no content
+    text = re.sub(r'\n\d [^\n]+', '', text)
     
     return text
 
@@ -53,6 +56,71 @@ def fix_hyphenation(text):
     """Fix hyphenation artifacts from OCR."""
     # Remove soft hyphen character ¬ that appears at line breaks
     text = re.sub(r'¬\s*', '', text)
+    
+    return text
+
+# DISABLED: Endnotes conversion (may re-enable later)
+# Need to process footnotes BEFORE rejoining split text to work properly
+def convert_to_endnotes(text):
+    """
+    Convert inline footnotes to endnote references and collect endnotes at end.
+    Example: "text. 1 Aristoteles..." -> "text.[^1]" + endnotes section
+    
+    CURRENTLY DISABLED - footnotes are simply removed for now.
+    To re-enable: call this function BEFORE rejoin_split_text() in the pipeline.
+    """
+    footnotes = {}
+    footnote_counter = 1
+    
+    # Step 1: Extract footnote definitions more carefully
+    # Look for: double newline + digit + space + content + double newline
+    footnote_pattern = r'\n\n(\d+) ([^\n].*?)(?=\n\n(?:\d+ |\w|$))'
+    
+    def extract_footnote(match):
+        nonlocal footnote_counter
+        original_num = match.group(1)
+        citation_text = match.group(2).strip()
+        
+        # Store footnote with new sequential number
+        footnotes[footnote_counter] = f"[^{footnote_counter}]: {citation_text}"
+        
+        # Create mapping for inline reference replacement
+        footnotes[f"orig_{original_num}"] = footnote_counter
+        
+        footnote_counter += 1
+        return "\n\n"  # Leave double newlines to preserve structure
+    
+    # Extract all footnote definitions
+    text = re.sub(footnote_pattern, extract_footnote, text, flags=re.DOTALL)
+    
+    # Step 2: Replace inline references
+    # Pattern: punctuation + space + digit + optional space/asterisk
+    inline_pattern = r'([.!?:]) (\d+)( \*?)'
+    
+    def replace_inline_ref(match):
+        punct = match.group(1)
+        orig_num = match.group(2)
+        
+        # Look up the new sequential number
+        new_num = footnotes.get(f"orig_{orig_num}")
+        if new_num:
+            return f"{punct}[^{new_num}]"
+        else:
+            # If footnote not found, leave as is
+            return match.group(0)
+    
+    text = re.sub(inline_pattern, replace_inline_ref, text)
+    
+    # Step 3: Build endnotes section
+    if footnotes:
+        endnote_list = []
+        for i in range(1, footnote_counter):
+            if footnotes.get(i):
+                endnote_list.append(footnotes[i])
+        
+        if endnote_list:
+            endnotes_section = "\n\n## Endnotes\n\n" + "\n\n".join(endnote_list)
+            text = text + endnotes_section
     
     return text
 
@@ -107,7 +175,7 @@ def main():
     print("DJVU preprocessing complete!")
     print("\nNext steps:")
     print("- Review Greek passages manually")
-    print("- Citations and footnotes have been preserved")
+    print("- Footnotes removed for cleaner audiobook flow")
     print("- Numbered arguments maintained for philosophical structure")
 
 if __name__ == "__main__":
