@@ -17,6 +17,9 @@ spacy = "*"
 pdfplumber = "*"
 markdown = "*"
 pyyaml = "*"
+langchain = "^0.3.27"
+langchain-openai = "^0.3.28"
+langchain-anthropic = "^0.3.18"
 
 [build-system]
 requires = ["poetry-core"]
