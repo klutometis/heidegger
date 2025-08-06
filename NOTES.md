@@ -271,6 +271,161 @@ reflecting Heidegger's ontological focus...
 
 This implementation demonstrates how AI can augment rather than replace human scholarship, creating new forms of transparent, reasoned, and educational philosophical translation.
 
+---
+
+## Hybrid Term Extraction System - First-Pass Philosophical Analysis (December 2024)
+
+### The Strategic Question: Populate CONVENTIONS.md and GLOSSARY.md First?
+
+**Problem Identified**: Should we do a first-pass over the entire book to extract and analyze philosophical terminology before beginning translation? This would pre-populate our configuration files with Heidegger's key concepts.
+
+**User Insight**: "Are CONVENTIONS.md and GLOSSARY.md redundant; or do they serve distinct purposes?"
+
+**Architectural Decision**: They serve **distinct but complementary purposes**:
+- **CONVENTIONS.md**: Binding translation commitments ("Always translate *Dasein* as 'Being-there'")  
+- **GLOSSARY.md**: Conceptual exploration with multiple renderings and permission to evolve
+
+This distinction enables both consistency and flexibility in translation choices.
+
+### Hybrid Approach: Primitive + LLM Analysis
+
+**Implementation Strategy**: Two-phase system combining computational efficiency with philosophical intelligence:
+
+**Phase 1: Primitive Text Analysis** (Fast & Cheap)
+- German compound word detection via regex patterns
+- Frequency analysis and co-occurrence detection
+- NLTK German Snowball stemmer for morphological clustering
+- Philosophical term filtering (suffix patterns: *-heit*, *-keit*, *-ung*, *-schaft*)
+
+**Phase 2: LLM Philosophical Analysis** (Smart & Selective)  
+- Analyze top ~50 terms for philosophical significance (1-10 scale)
+- Identify core vs secondary concepts
+- Generate translation challenges and suggested renderings
+- Flag contextual variations and interpretive difficulties
+
+**Cost-Effective**: ~$5-15 total for comprehensive terminology analysis vs expensive full-text LLM processing
+
+### NLTK German Stemmer Integration - Solving Morphological Redundancy
+
+**Initial Problem**: Fragmented and redundant term extraction:
+```
+dasein (1119x), daseins (1040x) -> analyzed separately
+sein (1001x), seins (326x) -> analyzed separately
+in-der (321x), welt-sein (183x) -> compound fragmentation
+```
+
+**Solution Implemented**: NLTK `GermanStemmer` with morphological clustering:
+```python
+from nltk.stem.snowball import GermanStemmer
+
+@dataclass
+class PhilosophicalTerm:
+    canonical_form: str  # Most frequent surface form
+    stem: str
+    total_frequency: int
+    morphological_forms: Dict[str, int]  # form -> frequency
+    contexts: List[str]
+```
+
+**Results**: Clean stem clusters with full morphological analysis:
+```
+dasein: canonical="dasein", total=2159x, forms={dasein: 1119x, daseins: 1040x}
+zeitlichkeit: canonical="zeitlichkeit", total=487x, forms={zeitlichkeit: 355x, zeitlichen: 47x, zeitliche: 49x, ...}
+```
+
+### Stopword Refinement - Filtering Functional Language
+
+**Problem Discovered**: Functional/connective words polluting philosophical term analysis:
+```
+# Low philosophical value terms appearing in top results:
+damit (thus), daher (therefore), darin (therein)
+```
+
+**Solution**: Expanded German stopword list:
+```python
+self.stopwords.update({
+    'damit', 'daher', 'darin', 'dabei', 'dafür', 'dagegen', 'danach', 
+    'davon', 'dazu', 'demnach', 'deshalb', 'deswegen', 'hierbei', 
+    'hierzu', 'indem', 'insofern', 'somit', 'wobei', 'wodurch', 'zudem'
+})
+```
+
+**Impact**: Stem groups reduced from 449 → 440, but with much higher philosophical density in top results.
+
+### Successful Term Extraction Results
+
+**30 High-Quality Philosophical Terms Analyzed**:
+- **Core existential structures**: `sein`, `dasein`, `zeitlichkeit`, `sorge`
+- **Complex compounds**: `in-der-welt-sein`, `seinsverständnis`, `weltlichkeit`  
+- **Existential analytics**: `befindlichkeit`, `erschlossenheit`, `entschlossenheit`, `geworfenheit`
+- **Temporal concepts**: `geschichtlichkeit`, `alltäglichkeit`
+
+**Generated Configuration Files**:
+
+**CONVENTIONS.md Features**:
+- Morphological variants shown: `sein [variants: seins (345x), seine (214x), seiner (410x)...]`
+- Primary translation choices with alternatives: `Dasein: Being-there (alt: Existence, Presence)`
+- Frequency-weighted prioritization of most important terms
+
+**GLOSSARY.md Features**:
+- Philosophical importance scoring (1-10 scale)
+- Translation challenges explained by LLM
+- Contextual variations and interpretive decisions
+- Full morphological form documentation
+- Stem information preserved
+
+### End-to-End System Validation
+
+**Successful Translation Test**: Paragraph 101 - genuine philosophical content:
+```markdown
+**German:** "Aber solches Fragen - Ontologie im weitesten Sinne genommen..."
+
+**English:** "But such questioning—ontology taken in the broadest sense..."
+
+**Translator's Notes:** "The distinction between 'ontological' and 'ontic' is crucial... 
+'Ontological' refers to the study of Being itself, while 'ontic' pertains to specific entities..."
+```
+
+**System Integration Working**:
+- ✅ Term recognition from CONVENTIONS.md applied correctly
+- ✅ Philosophical insights from GLOSSARY.md informing translation choices  
+- ✅ Rolling context windows providing argumentative coherence
+- ✅ Rich scholarly commentary with transparent reasoning
+- ✅ Translation uncertainties properly flagged
+
+### Technical Architecture Achieved
+
+**Complete Workflow**:
+```bash
+# Phase 1: Term extraction and analysis (~4 minutes, ~$10)
+poetry run python driver.py --mode extract-terms --top-terms 30 --min-freq 3
+
+# Phase 2: Generate configuration files from analysis  
+poetry run python driver.py --mode generate-configs
+
+# Phase 3: Translation with populated philosophical knowledge
+poetry run python driver.py --mode translate --start 101 --end 106
+```
+
+**Key Components**:
+- **`term_extractor.py`**: Hybrid linguistic + LLM analysis system
+- **NLTK integration**: German morphological stemming and clustering  
+- **Structured LLM analysis**: Pydantic models for philosophical reasoning
+- **Configuration generation**: Auto-populated CONVENTIONS.md and GLOSSARY.md
+- **Translation integration**: Philosophical knowledge informing real translation work
+
+### Revolutionary Implications
+
+**From Manual to Computational Philosophical Analysis**: Instead of scholars manually identifying key terms, we can computationally discover and analyze the full terminological landscape of a philosophical work.
+
+**Morphological Awareness**: The system tracks not just isolated terms but entire morphological families, providing translators with complete linguistic context.
+
+**Scalable Philosophy**: This approach could be applied to any major philosophical work - Kant's *Critiques*, Husserl's *Investigations*, etc. - rapidly generating comprehensive translation resources.
+
+**Living Configuration**: Unlike static translation guides, these configurations capture the AI's reasoning process, making them educational and refineable rather than prescriptive.
+
+This hybrid system successfully bridges computational linguistics and philosophical interpretation, creating a new model for AI-augmented scholarly translation that preserves and enhances human intellectual engagement rather than replacing it.
+
 ### Text Source Investigation & Preprocessing
 
 #### Source File Exploration

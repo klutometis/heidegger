@@ -23,6 +23,9 @@ def setup_logging(level: str = "INFO"):
 
 def main():
     parser = argparse.ArgumentParser(description="Translate Being and Time using LangChain")
+    parser.add_argument("--mode", default="translate", 
+                       choices=["translate", "extract-terms", "generate-configs"],
+                       help="Operation mode")
     parser.add_argument("--input", "-i", type=Path, default=Path("cleaned_text.md"),
                        help="Input cleaned text file")
     parser.add_argument("--output", "-o", type=Path, default=Path("translation.md"),
@@ -40,6 +43,12 @@ def main():
     parser.add_argument("--stream", action="store_true",
                        help="Stream translation output")
     
+    # Term extraction specific arguments
+    parser.add_argument("--top-terms", type=int, default=50,
+                       help="Number of top terms to analyze with LLM")
+    parser.add_argument("--min-freq", type=int, default=3,
+                       help="Minimum frequency for term inclusion")
+    
     args = parser.parse_args()
     
     setup_logging(args.log_level)
@@ -50,6 +59,75 @@ def main():
         logger.error(f"Input file not found: {args.input}")
         sys.exit(1)
     
+    # Route to appropriate mode
+    if args.mode == "extract-terms":
+        extract_terms_mode(args, logger)
+    elif args.mode == "generate-configs":
+        generate_configs_mode(args, logger) 
+    else:
+        translate_mode(args, logger)
+
+def extract_terms_mode(args, logger):
+    """Term extraction mode."""
+    from term_extractor import TermExtractor
+    
+    logger.info("Running term extraction mode")
+    extractor = TermExtractor(args.input, args.model)
+    
+    # Extract and cluster by stems
+    philosophical_terms = extractor.extract_and_cluster_terms()
+    
+    # Prioritize and analyze terms
+    priority_terms = extractor.prioritize_terms(philosophical_terms, args.top_terms)
+    analyzed_terms = extractor.analyze_terms_batch(priority_terms)
+    
+    # Save analysis
+    output_dir = args.output.parent if args.output != Path("translation.md") else Path(".")
+    extractor.save_analysis(analyzed_terms, output_dir / "term_analysis.json")
+    
+    logger.info(f"Term extraction complete. Found {len(analyzed_terms)} terms.")
+    logger.info(f"Analysis saved to term_analysis.json")
+
+def generate_configs_mode(args, logger):
+    """Generate configuration files from term analysis."""
+    import json
+    
+    logger.info("Generating configuration files from term analysis")
+    
+    # Load analysis
+    analysis_file = args.input if args.input.name == "term_analysis.json" else Path("term_analysis.json")
+    
+    if not analysis_file.exists():
+        logger.error(f"Term analysis file not found: {analysis_file}")
+        logger.error("Run with --mode extract-terms first")
+        sys.exit(1)
+    
+    with open(analysis_file, 'r', encoding='utf-8') as f:
+        analysis_data = json.load(f)
+    
+    # Reconstruct PhilosophicalTerm objects
+    from term_extractor import PhilosophicalTerm
+    analyzed_terms = []
+    for term_data in analysis_data["terms"]:
+        term = PhilosophicalTerm(**term_data)
+        analyzed_terms.append(term)
+    
+    # Generate configs
+    from term_extractor import TermExtractor
+    extractor = TermExtractor(Path("cleaned_text.md"))  # Dummy path for methods
+    
+    glossary = extractor.generate_glossary(analyzed_terms)
+    conventions = extractor.generate_conventions(analyzed_terms)
+    
+    # Save files
+    output_dir = args.output.parent if args.output != Path("translation.md") else Path(".")
+    (output_dir / "GLOSSARY.md").write_text(glossary, encoding='utf-8')
+    (output_dir / "CONVENTIONS.md").write_text(conventions, encoding='utf-8')
+    
+    logger.info("Generated GLOSSARY.md and CONVENTIONS.md")
+
+def translate_mode(args, logger):
+    """Translation mode (original functionality)."""
     # Initialize components
     logger.info(f"Initializing translator with model: {args.model}")
     translator = Translator(args.model)
