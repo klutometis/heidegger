@@ -18,19 +18,24 @@ class TranslationPromptBuilder:
             return file_path.read_text(encoding='utf-8')
         return ""
     
-    def build_translation_prompt(self) -> ChatPromptTemplate:
+    def build_translation_prompt(self, include_format_instructions: bool = False, 
+                                format_instructions: str = "") -> ChatPromptTemplate:
         """Create the main translation prompt template."""
         
-        system_template = """You are translating Martin Heidegger's "Being and Time" from German to English.
+        format_section = ""
+        if include_format_instructions:
+            format_section = f"\n\n# Output Format\n\nRespond with valid JSON in this exact format:\n{format_instructions}"
+        
+        system_template = f"""You are translating Martin Heidegger's "Being and Time" from German to English.
 
 # Translation Style Guidelines
-{style_guidelines}
+{{style_guidelines}}
 
 # Term Conventions
-{conventions}
+{{conventions}}
 
 # Glossary & Conceptual Notes
-{glossary}
+{{glossary}}
 
 # Instructions
 - Provide your English translation in the 'translation' field
@@ -43,7 +48,7 @@ class TranslationPromptBuilder:
 - Note important philosophical terms in 'key_terms'
 - Flag uncertain translation choices in 'uncertainties'
 - Think through the philosophical implications as you translate
-- Preserve the phenomenological rhythm and argumentative structure"""
+- Preserve the phenomenological rhythm and argumentative structure{format_section}"""
 
         human_template = """# Previous German Context
 {prev_german_context}

@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import List
 import sys
 
+from langchain.globals import set_debug, set_verbose
 from translator import Translator, TranslationContext, PhilosophicalTranslation
 from prompt_builder import TranslationPromptBuilder
 from chunker import TextChunker
@@ -42,6 +43,10 @@ def main():
                        choices=["DEBUG", "INFO", "WARNING", "ERROR"])
     parser.add_argument("--stream", action="store_true",
                        help="Stream translation output")
+    parser.add_argument("--debug", action="store_true",
+                       help="Enable LangChain debug mode (logs all events)")
+    parser.add_argument("--verbose", action="store_true",
+                       help="Enable LangChain verbose mode (logs important events)")
     
     # Term extraction specific arguments
     parser.add_argument("--top-terms", type=int, default=50,
@@ -53,6 +58,14 @@ def main():
     
     setup_logging(args.log_level)
     logger = logging.getLogger(__name__)
+    
+    # Configure LangChain debugging
+    if args.debug:
+        set_debug(True)
+        logger.info("LangChain debug mode enabled")
+    elif args.verbose:
+        set_verbose(True)
+        logger.info("LangChain verbose mode enabled")
     
     # Check input file exists
     if not args.input.exists():
