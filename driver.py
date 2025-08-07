@@ -127,7 +127,7 @@ def generate_configs_mode(args, logger):
     logger.info("Generated GLOSSARY.md and CONVENTIONS.md")
 
 def translate_mode(args, logger):
-    """Translation mode (original functionality)."""
+    """Translation mode with progressive output."""
     # Initialize components
     logger.info(f"Initializing translator with model: {args.model}")
     translator = Translator(args.model)
@@ -155,11 +155,17 @@ def translate_mode(args, logger):
     english_history = []
     translations = []
     
-    with open(args.output, 'w', encoding='utf-8') as f:
-        f.write(f"# Being and Time - Translation\n\n")
-        f.write(f"**Model:** {args.model}\n")
-        f.write(f"**Paragraphs:** {args.start}-{end_idx-1}\n\n")
-        f.write("---\n\n")
+    # Open file in append mode and write header if file is new
+    file_exists = args.output.exists() and args.output.stat().st_size > 0
+    
+    with open(args.output, 'a', encoding='utf-8') as f:
+        # Write header only if file is new/empty
+        if not file_exists:
+            f.write(f"# Being and Time - Translation\n\n")
+            f.write(f"**Model:** {args.model}\n")
+            f.write(f"**Started:** {args.start}-{end_idx-1}\n\n")
+            f.write("---\n\n")
+            f.flush()  # Ensure header is written immediately
         
         for i in range(args.start, end_idx):
             current_german = paragraphs[i]
@@ -184,7 +190,7 @@ def translate_mode(args, logger):
                 # Get structured translation result
                 structured_result = translator.translate_paragraph(context, config)
                 
-                # Write to file with enhanced formatting
+                # Write immediately after each translation
                 f.write(f"## Paragraph {i}\n\n")
                 f.write(f"**German:**\n{current_german}\n\n")
                 f.write(f"**English:**\n{structured_result.translation}\n\n")
@@ -202,13 +208,14 @@ def translate_mode(args, logger):
                     f.write("\n")
                 
                 f.write("---\n\n")
+                f.flush()  # Force write to disk immediately
                 
                 # Update history (use just the translation text for context)
                 german_history.append(current_german)
                 english_history.append(structured_result.translation)
                 translations.append(structured_result.translation)
                 
-                logger.info(f"✓ Completed paragraph {i}")
+                logger.info(f"✓ Completed and saved paragraph {i}")
                 
             except Exception as e:
                 logger.error(f"Error translating paragraph {i}: {e}")
@@ -216,6 +223,7 @@ def translate_mode(args, logger):
                 f.write(f"**German:**\n{current_german}\n\n")
                 f.write(f"**Error:**\n{str(e)}\n\n")
                 f.write("---\n\n")
+                f.flush()
                 continue
     
     logger.info(f"Translation complete! Output saved to: {args.output}")
