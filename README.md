@@ -1,5 +1,11 @@
 # AI-Augmented Philosophical Translation
 
+## 🎯 See the Results
+
+**[→ Four Minds on Being: Complete Analysis](final_analysis_paragraph_77.md)** - See how four AI models translate and critique each other's work on the same Heidegger passage
+
+**[→ Generate PDF](./generate_analysis_pdf.sh)** - Create a polished academic PDF: `four_minds_on_being.pdf`
+
 ## Overview
 
 This project explores AI-augmented philosophical translation, using Martin Heidegger's *Being and Time* (*Sein und Zeit*, 1927) as a proof-of-concept. Rather than treating AI as a simple word-replacement tool, we capture and present the model's philosophical reasoning process alongside the translation itself, creating a new form of transparent, educational scholarly work.
@@ -22,7 +28,6 @@ Here's what this looks like in practice:
 
 ## Sample Output
 
-```markdown
 ## Paragraph 398
 
 **German:**
@@ -38,7 +43,6 @@ In this translation, I aimed to preserve the phenomenological nuances of Heidegg
 
 **Translation Uncertainties:**
 - The term 'Zeichenstiftung' could also be interpreted as 'sign creation' or 'sign establishment'; I chose 'establishment' for its connotations of a formal process.
-```
 
 ## Technical Architecture
 

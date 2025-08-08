@@ -63,6 +63,8 @@ def main():
     
     # Final analysis compilation arguments
     parser.add_argument("--critiques", help="Comma-separated critique JSON files for final analysis")
+    parser.add_argument("--with-summary", action="store_true",
+                       help="Generate final summary with GPT (for compile-final-analysis mode)")
     
     args = parser.parse_args()
     
@@ -693,6 +695,60 @@ Be thorough, specific, and fair in your analysis. You may critique your own tran
     logger.info(f"  Best translation (according to {args.critic_model}): {meta_commentary.best_translation}")
     logger.info(f"  Output: {args.output}")
 
+def generate_final_summary(analysis_file: Path, translation_choices: dict, accuracy_scores: dict, num_translations: int, num_critiques: int, logger) -> str:
+    """Generate concluding summary using GPT."""
+    from translator import Translator
+    
+    # Load the complete analysis that was just written
+    with open(analysis_file, 'r', encoding='utf-8') as f:
+        full_analysis = f.read()
+    
+    # Create GPT translator
+    translator = Translator(model_name="gpt-4o")
+    
+    # Build context about the experiment results
+    consensus_info = ""
+    if translation_choices:
+        choice_counts = {}
+        for choice in translation_choices.values():
+            choice_counts[choice] = choice_counts.get(choice, 0) + 1
+        
+        if choice_counts:
+            most_popular = max(choice_counts, key=choice_counts.get)
+            consensus_info = f"Key finding: {most_popular} received {choice_counts[most_popular]} out of {len(translation_choices)} votes as the best translation."
+    
+    prompt = f"""You are analyzing a completed AI translation experiment. Read this full analysis and write a concluding summary that synthesizes what happened and what it reveals.
+
+EXPERIMENT CONTEXT:
+- {num_translations} AI models each translated the same Heidegger paragraph
+- Then all {num_critiques} models critiqued all translations and chose the best one
+- {consensus_info}
+
+FULL ANALYSIS:
+{full_analysis}
+
+Write a final section titled "## Conclusion: What This Experiment Revealed" that covers:
+
+1. **What actually happened**: Brief recap of the experimental process (4 translations → 4 critiques)
+2. **The key finding**: Which translation was preferred and the level of consensus/disagreement
+3. **Meta-commentary insights**: What this reveals about AI's capability for philosophical evaluation
+4. **Broader significance**: What this means for AI-assisted scholarly work and transparent reasoning
+
+Keep it concise but insightful (~300-500 words). Write in academic tone. Focus on what this experiment actually demonstrates about AI philosophical reasoning capabilities."""
+
+    # Use simple completion
+    from langchain_core.prompts import ChatPromptTemplate
+    
+    prompt_template = ChatPromptTemplate.from_messages([
+        ("system", "You are an expert in AI and philosophical scholarship, writing a conclusion for an experimental study."),
+        ("human", "{prompt}")
+    ])
+    
+    chain = prompt_template | translator.model
+    response = chain.invoke({"prompt": prompt})
+    
+    return response.content
+
 def compile_final_analysis_mode(args, logger):
     """Compile comprehensive final analysis from passages and critiques."""
     import json
@@ -963,6 +1019,22 @@ def compile_final_analysis_mode(args, logger):
     logger.info(f"Writing final analysis to {args.output}")
     with open(args.output, 'w', encoding='utf-8') as f:
         f.write(markdown_content)
+    
+    # Generate final summary if requested
+    if args.with_summary:
+        logger.info("Generating final summary with GPT...")
+        try:
+            summary = generate_final_summary(args.output, translation_choices, accuracy_scores, len(paragraph_data), len(critiques), logger)
+            
+            # Append summary to the file
+            with open(args.output, 'a', encoding='utf-8') as f:
+                f.write("\n\n" + summary)
+            
+            logger.info("✓ Added GPT-generated summary to final analysis")
+            
+        except Exception as e:
+            logger.error(f"Error generating summary: {e}")
+            logger.info("Final analysis saved without summary")
     
     logger.info(f"✓ Final analysis complete!")
     logger.info(f"  Paragraph analyzed: {paragraph_number}")
