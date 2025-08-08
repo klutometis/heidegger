@@ -1,0 +1,899 @@
+{
+  "metadata": {
+    "source_file": "cleaned_text.md",
+    "total_terms": 30,
+    "analysis_date": null
+  },
+  "terms": [
+    {
+      "canonical_form": "sein",
+      "stem": "sein",
+      "total_frequency": 2927,
+      "morphological_forms": {
+        "sein": 1528,
+        "seins": 345,
+        "seine": 214,
+        "seiner": 410,
+        "seinem": 244,
+        "seines": 123,
+        "seinen": 63
+      },
+      "contexts": [
+        "Die Abhandlung »Sein und Zeit« erschien zuerst Frühjahr in dem von E. Husserl herausgegebenen Jahrbuch für Phänomenologi",
+        "rgestellt würde. Deren Weg bleibt indessen auch\nheute noch ein notwendiger, wenn die Frage nach dem Sein unser\nDasein bewegen soll.",
+        "Die Exposition der Frage nach dem Sinn von Sein",
+        "## § 1. Die Notwendigkeit einer ausdrücklichen Wiederholung der Frage\nnach dem Sein ... § 2. Die formale Struktur der Frage nach dem Sein ... § 3. Der ontologische Vorrang der Seinsfr",
+        "usdrücklichen Wiederholung der Frage\nnach dem Sein ... § 2. Die formale Struktur der Frage nach dem Sein ... § 3. Der ontologische Vorrang der Seinsfrage ... § 4. Der ontische Vorrang der Seinsfrage ... Z",
+        "ologische Analytik des Daseins als Freilegung des Horizontes\nfür eine Interpretation des Sinnes von Sein überhaupt... § 6. Die Aufgabe einer Destruktion der Geschichte der Ontologie ... § 7. Die phänomeno",
+        "## § 12. Die Verzeichnung des In-der-Welt-seins aus der Orientierung am\nIn-Sein als solchem ... §13. Die Exemplifizierung des In-Seins an einem fundierten Modus. Das\nWelterkennen",
+        "ichkeit der Welt überhaupt... A. Die Analyse der Umweltlichkeit und Weltlichkeit überhaupt\n§15. Das Sein des in der Umwelt begegnenden Seienden ... § 16. Die am innerweltlich Seienden sich meldende Weltmä"
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Sein\" presents significant translation challenges due to its abstract nature and the depth of its philosophical implications. Heidegger's use of \"Sein\" is not merely about existence in a general sense but involves a complex exploration of the nature of being itself. Additionally, the term is deeply embedded in the German philosophical tradition, which can be difficult to convey in English without losing some of its nuanced meanings.",
+      "suggested_renderings": [
+        "**:",
+        "1. Being",
+        "2. Existence",
+        "3. Essence (in specific contexts where the focus is on the nature or essence of being)"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Sein\" can shift depending on the context within \"Being and Time.\" For example, when discussing the \"Sinn von Sein\" (meaning of being), the focus is on the interpretative aspect of being. In contrast, when referring to \"In-der-Welt-sein\" (being-in-the-world), the term emphasizes the relational and existential aspect of being. The variations in form (e.g., seins, seine, seiner) often relate to grammatical cases and possessive forms, which can affect the interpretation of the term in specific contexts."
+    },
+    {
+      "canonical_form": "dasein",
+      "stem": "dasein",
+      "total_frequency": 2159,
+      "morphological_forms": {
+        "dasein": 1119,
+        "daseins": 1040
+      },
+      "contexts": [
+        "ürde. Deren Weg bleibt indessen auch\nheute noch ein notwendiger, wenn die Frage nach dem Sein unser\nDasein bewegen soll.",
+        "## § 43. Dasein, Weltlichkeit und Realität... a) Realität als Problem des Seins und der Beweisbarkeit der\n»Außenwel",
+        "rkeit der\n»Außenwelt« ... b) Realität als ontologisches Problem ... c) Realität und Sorge ... § 44. Dasein, Erschlossenheit und Wahrheit... a) Der traditionelle Wahrheitsbegriff und seine ontologischen\nFund",
+        "Zweiter Abschnitt\nDasein und Zeitlichkeit",
+        "## § 82. Die Abhebung des existenzial-ontologischen Zusammenhangs von\nZeitlichkeit, Dasein und Weltzeit gegen Hegels Auffassung der\nBeziehung zwischen Zeit und Geist ... a) Hegels Begriff de",
+        "d wie wir selbst sind. Sein\nliegt im Daß- und Sosein, in Realität, Vorhandenheit, Bestand,\nGeltung, Dasein, im »es gibt«. An welchem Seienden soll der Sinn\nvon Sein abgelesen werden, von welchem Seienden so",
+        "t je sind und\ndas unter anderem die Seinsmöglichkeit des Fragens hat, fassen\nwir terminologisch als Dasein. Die ausdrückliche und durchsichtige Fragestellung nach dem Sinn von Sein verlangt eine vorgängige",
+        "agestellung nach dem Sinn von Sein verlangt eine vorgängige angemessene Explikation eines Seienden (Dasein) hinsichtlich seines Seins."
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Dasein\" is challenging to translate because it is a compound German word meaning \"being there\" or \"existence,\" but it carries specific philosophical connotations in Heidegger's work. It refers not just to existence in a general sense but to the particular way humans exist, characterized by self-awareness and the capacity for questioning one's own being.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Existence",
+        "2. \"Being-there",
+        "3. \"Presence"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Dasein\" can shift slightly depending on the context. In some instances, it emphasizes the individual's existence and their relationship to the world. In others, it highlights the ontological structures that define human existence, such as temporality, worldliness, and reality. Despite these variations, the core idea remains focused on the unique nature of human being."
+    },
+    {
+      "canonical_form": "zeitlichkeit",
+      "stem": "zeitlich",
+      "total_frequency": 487,
+      "morphological_forms": {
+        "zeitlichkeit": 355,
+        "zeitlichen": 47,
+        "zeitliche": 49,
+        "zeitlich": 28,
+        "zeitliches": 5,
+        "zeitlicher": 3
+      },
+      "contexts": [
+        "Die Interpretation des Daseins auf die Zeitlichkeit\nund die Explikation der Zeit als des transzendentalen Horizontes\nder Frage nach dem Sem",
+        "Zweiter Abschnitt\nDasein und Zeitlichkeit",
+        "Das eigentliche Ganzseinkönnen des Daseins und die Zeitlichkeit als der\nontologische Sinn der Sorge",
+        "rittes von der Umgrenzung des\neigentlichen daseinsmäßigen Ganzseins zur phänomenalen Freilegung der Zeitlichkeit... § 62. Das existenziell eigentliche Ganzseinkönnen des Daseins als vorlaufende Entschlossenheit..",
+        "odische Charakter der exi-\nstenzialen Analytik überhaupt... § 64. Sorge und Selbstheit... § 65. Die Zeitlichkeit als der ontologische Sinn der Sorge ... § 66. Die Zeitlichkeit des Daseins und die aus ihr entsprin",
+        "4. Sorge und Selbstheit... § 65. Die Zeitlichkeit als der ontologische Sinn der Sorge ... § 66. Die Zeitlichkeit des Daseins und die aus ihr entspringenden Aufgaben einer ursprünglicheren Wiederholung der existen",
+        "Zeitlichkeit und Alltäglichkeit",
+        "stenzialen Verfassung des Daseins und\ndie Vorzeichnung ihrer zeitlichen Interpretation ... §68. Die Zeitlichkeit der Erschlossenheit überhaupt... a) Die Zeitlichkeit des Verstehens ... b) Die Zeitlichkeit der Bef"
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Zeitlichkeit\" poses translation challenges due to its nuanced philosophical implications in Heidegger's work. It is not merely \"temporality\" in a general sense but refers to a specific existential and ontological structure of Dasein. The term captures the way time is experienced and understood as an intrinsic aspect of being, which is difficult to convey in English without losing some of its depth and specificity.",
+      "suggested_renderings": [
+        "**:",
+        "1. Temporality",
+        "2. Temporal structure",
+        "3. Temporal being"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Zeitlichkeit\" can shift slightly depending on the context within \"Being and Time.\" It is often used to describe the existential condition of Dasein, the ontological basis of care, and the way time structures understanding and existence. In some contexts, it emphasizes the authentic potentiality of Dasein, while in others, it highlights the everyday, mundane experience of time. Despite these variations, the core idea remains focused on the temporal nature of being."
+    },
+    {
+      "canonical_form": "welt",
+      "stem": "welt",
+      "total_frequency": 603,
+      "morphological_forms": {
+        "welt": 602,
+        "welten": 1
+      },
+      "contexts": [
+        "g des In-Seins an einem fundierten Modus. Das\nWelterkennen ... Drittes Kapitel\nDie Weltlichkeit der Welt",
+        "## § 14. Die Idee der Weltlichkeit der Welt überhaupt... A. Die Analyse der Umweltlichkeit und Weltlichkeit überhaupt\n§15. Das Sein des in der",
+        "Umwelt... § 17. Verweisung und Zeichen ... §18. Bewandtnis und Bedeutsamkeit; die Weltlichkeit der Welt... B. Die Abhebung der Analyse der Weltlichkeit gegen die Interpretation\nder Welt bei Descartes",
+        "Weltlichkeit der Welt... B. Die Abhebung der Analyse der Weltlichkeit gegen die Interpretation\nder Welt bei Descartes",
+        "## § 19. Die Bestimmung der »Welt« als res extensa ... § 20. Die Fundamente der ontologischen Bestimmung der »Welt« ... §21. Die herm",
+        "ie Bestimmung der »Welt« als res extensa ... § 20. Die Fundamente der ontologischen Bestimmung der »Welt« ... §21. Die hermeneutische Diskussion der cartesischen Ontologie der\n»Welt« ... C. Das Umhafte de",
+        "ischen Bestimmung der »Welt« ... §21. Die hermeneutische Diskussion der cartesischen Ontologie der\n»Welt« ... C. Das Umhafte der Umwelt und die »Räumlichkeit« des Daseins\n## § 22. Die Räumlichkeit des inn",
+        "keit der Rede ... § 69. Die Zeitlichkeit des In-der-Welt-seins und das Problem der Transzendenz der Welt... a) Die Zeitlichkeit des umsichtigen Besorgens ... b) Der zeitliche Sinn der Modifikation des ums"
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Welt\" poses several translation challenges due to its layered meanings in Heidegger's philosophy. It encompasses not just the physical world but also the existential and ontological dimensions of how Dasein relates to its surroundings. The term \"Weltlichkeit\" (worldliness) further complicates translation, as it refers to the structural aspects of how the world is constituted for Dasein.",
+      "suggested_renderings": [
+        "**:",
+        "1. World",
+        "2. Worldliness",
+        "3. Environment (in specific contexts",
+        "particularly when discussing \"Umwelt\")"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Welt\" can shift depending on the context within \"Being and Time.\" For instance, when discussing \"Weltlichkeit der Welt\" (worldliness of the world), the focus is on the ontological structure of the world as it is experienced by Dasein. In contrast, when referring to \"Umwelt\" (environment), the term may emphasize the immediate, practical surroundings of Dasein. Additionally, Heidegger contrasts his interpretation of \"Welt\" with Cartesian notions, which adds another layer of complexity to its translation and understanding."
+    },
+    {
+      "canonical_form": "seinsart",
+      "stem": "seinsart",
+      "total_frequency": 283,
+      "morphological_forms": {
+        "seinsart": 280,
+        "seinsarten": 3
+      },
+      "contexts": [
+        "iche Phänomen der Wahrheit und die Abkünf-\ntigkeit des traditionellen Wahrheitsbegriffes ... c) Die Seinsart der Wahrheit und die Wahrheitsvoraussetzung\n.226",
+        "n Mechanismus und\nVitalismus gegebenen Bestimmungen von Organismus und Leben\nzurückzufragen und die Seinsart von Lebendem als solchem neu\nzu bestimmen. In den historischen Geisteswissenschaften hat sich\nder D",
+        "h trifft sie die Wissenschaft\nin ihrem Sinn. Wissenschaften haben als Verhaltungen des Menschen die Seinsart dieses Seienden (Mensch). Dieses Seiende fassen wir terminologisch als Dasein. Wissenschaftliche Fo",
+        "ogisch als Dasein. Wissenschaftliche Forschung\nist nicht die einzige und nicht die nächste mögliche Seinsart dieses\nSeienden. Das Dasein selbst ist überdies vor anderem Seienden\nausgezeichnet. Diese Auszeichn",
+        "anscendens nachgewiesen werden. Das\ngeschieht durch die Berufung auf ein Seiendes, das gemäß seiner\nSeinsart selbst die Eignung hat, mit jeglichem irgendwie Seienden\n»zusammenzukommen«. Dieses ausgezeichnete",
+        "t des Seienden selbst, sondern\nauch hinsichtlich einer ebenso »unmittelbaren« Vorgegebenheit\nseiner Seinsart. Das Dasein ist zwar ontisch nicht nur nahe oder\ngar das nächste - wir sind es sogar je selbst. Tro",
+        "ie\neigenste Seinsverfassung entspringen müßte. Das Dasein hat\nvielmehr gemäß einer zu ihm gehörigen Seinsart die Tendenz, das\neigene Sein aus dem Seienden her zu verstehen, zu dem es sich\nwesenhaft ständig un",
+        "zeigt, daß eine Interpretation dieses\nSeienden vor eigentümlichen Schwierigkeiten steht, die in der\nSeinsart des thematischen Gegenstandes und des thematisierenden Verhaltens selbst gründen und nicht etwa in"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Seinsart\" is challenging to translate because it combines \"Sein\" (being) with \"Art\" (kind or mode), suggesting a nuanced understanding of the different ways or modes in which being can manifest. The challenge lies in capturing both the ontological depth and the specificity of the term in English.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Mode of being",
+        "2. \"Way of being",
+        "3. \"Manner of being"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Seinsart\" can shift slightly depending on the context. In some instances, it refers to the specific way in which a particular being exists (e.g., the Seinsart of Dasein), while in others, it may refer more generally to the concept of different modes of existence. The term can also imply a critique or reevaluation of traditional understandings of being, as seen in Heidegger's discussions of truth and science."
+    },
+    {
+      "canonical_form": "zeit",
+      "stem": "zeit",
+      "total_frequency": 448,
+      "morphological_forms": {
+        "zeit": 448
+      },
+      "contexts": [
+        "Die Abhandlung »Sein und Zeit« erschien zuerst Frühjahr in dem von E. Husserl herausgegebenen Jahrbuch für Phänomenologie und phä",
+        "Die Interpretation des Daseins auf die Zeitlichkeit\nund die Explikation der Zeit als des transzendentalen Horizontes\nder Frage nach dem Sem",
+        "tehenden zeitlichen Analyse des\nDaseins ... § 79. Die Zeitlichkeit des Daseins und das Besorgen von Zeit... §80. Die besorgte Zeit und die Innerzeitigkeit... §81. Die Innerzeitigkeit und die Genesis des v",
+        "e des\nDaseins ... § 79. Die Zeitlichkeit des Daseins und das Besorgen von Zeit... §80. Die besorgte Zeit und die Innerzeitigkeit... §81. Die Innerzeitigkeit und die Genesis des vulgären Zeitbegriffes\n.420",
+        "Zusammenhangs von\nZeitlichkeit, Dasein und Weltzeit gegen Hegels Auffassung der\nBeziehung zwischen Zeit und Geist ... a) Hegels Begriff der Zeit ... b) Hegels Interpretation des Zusammenhangs zwischen Ze",
+        "nd Weltzeit gegen Hegels Auffassung der\nBeziehung zwischen Zeit und Geist ... a) Hegels Begriff der Zeit ... b) Hegels Interpretation des Zusammenhangs zwischen Zeit und\nGeist... § 83. Die existenzial-zei",
+        "it und Geist ... a) Hegels Begriff der Zeit ... b) Hegels Interpretation des Zusammenhangs zwischen Zeit und\nGeist... § 83. Die existenzial-zeitliche Analytik des Daseins und die fundamentalontologische F",
+        "der Frage nach dem Sinn von\n»Sein« ist die Absicht der folgenden Abhandlung. Die Interpretation der Zeit als des möglichen Horizontes eines jeden Seinsverständnisses überhaupt ist ihr vorläufiges Ziel."
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Zeit\" in Heidegger's work is challenging to translate because it encompasses multiple layers of meaning beyond the simple notion of chronological time. Heidegger distinguishes between different types of time, such as \"Zeitlichkeit\" (temporality) and \"Innerzeitigkeit\" (within-time-ness), which require careful consideration to capture their philosophical nuances in English.",
+      "suggested_renderings": [
+        "**:",
+        "1. Time",
+        "2. Temporality",
+        "3. Temporal horizon"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Zeit\" shifts across different contexts in \"Being and Time.\" It can refer to the ordinary, linear concept of time, but more importantly, it often signifies the existential and ontological dimensions of time, such as the temporal structure of Dasein (human existence) and the horizon within which being is understood. These variations require translators to be sensitive to the specific philosophical context in which \"Zeit\" is used."
+    },
+    {
+      "canonical_form": "seinkönnen",
+      "stem": "seinkonn",
+      "total_frequency": 234,
+      "morphological_forms": {
+        "seinkönnens": 54,
+        "seinkönnen": 177,
+        "seinkönnend": 3
+      },
+      "contexts": [
+        "Die daseinsmäßige Bezeugung eines eigentlichen Seinkönnens und die\nEntschlossenheit",
+        "ulgäre\nGewissensauslegung ... §60. Die existenziale Struktur des im Gewissen bezeugten eigentlichen\nSeinkönnens ... Drittes Kapitel",
+        "Verstehen ist das Sein solchen Seinkönnens, das nie als Noch-\nnicht-vorhandenes aussteht, sondern als wesenhaft nie Vorhandenes mit dem Sein d",
+        "Verstehen ist das existenziale Sein des eigenen Seinkönnens des\nDaseins selbst, so zivar, daß dieses Sein an ihm selbst das Woran\ndes mit ihm selbst Seins ersc",
+        "erstehens konstituiert das In-der-Welt-sein hinsichtlich der Erschlossenheit seines Da als Da eines Seinkönnens. Der\nEntwurf ist die existenziale Seinsverfassung des Spielraums des\nfaktischen Seinkönnens. Und al",
+        "a eines Seinkönnens. Der\nEntwurf ist die existenziale Seinsverfassung des Spielraums des\nfaktischen Seinkönnens. Und als geworfenes ist das Dasein in die\nSeinsart des Entwerfens geworfen. Das Entwerfen hat nicht",
+        "Die Erschlossenheit des Da im Verstehen ist selbst eine Weise\ndes Seinkönnens des Daseins. In der Entworfenheit seines Seins\nauf das Worumwillen in eins mit der auf die Bedeutsa",
+        "entwerfenden Erschließen solcher Möglichkeiten ist es je schon gestimmt. Der Entwurf des eigensten Seinkönnens ist dem Faktum der Geworfenheit in das Da überantwortet. Wird mit der Explikation der existenzialen"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Seinkönnen\" combines \"Sein\" (being) with \"können\" (can, ability, potentiality), which makes it challenging to capture its full nuance in English. It conveys a sense of potentiality or capability of being, which is not easily encapsulated in a single English word. Additionally, the term is deeply embedded in Heidegger's unique philosophical lexicon, which often resists straightforward translation.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Potentiality-for-Being",
+        "2. \"Capability-of-Being",
+        "3. \"Possibility-of-Being"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Seinkönnen\" can shift slightly depending on the context. In some instances, it emphasizes the potentiality inherent in Dasein's existence, while in others, it may focus on the existential choices and possibilities available to Dasein. The term is often linked to the notion of authenticity, where it underscores the potential for Dasein to realize its ownmost possibilities."
+    },
+    {
+      "canonical_form": "wahrheit",
+      "stem": "wahrheit",
+      "total_frequency": 185,
+      "morphological_forms": {
+        "wahrheit": 181,
+        "wahrheiten": 4
+      },
+      "contexts": [
+        "Realität als ontologisches Problem ... c) Realität und Sorge ... § 44. Dasein, Erschlossenheit und Wahrheit... a) Der traditionelle Wahrheitsbegriff und seine ontologischen\nFundamente ... b) Das ursprünglich",
+        "itionelle Wahrheitsbegriff und seine ontologischen\nFundamente ... b) Das ursprüngliche Phänomen der Wahrheit und die Abkünf-\ntigkeit des traditionellen Wahrheitsbegriffes ... c) Die Seinsart der Wahrheit und",
+        "der Wahrheit und die Abkünf-\ntigkeit des traditionellen Wahrheitsbegriffes ... c) Die Seinsart der Wahrheit und die Wahrheitsvoraussetzung\n.226",
+        "Weil aber »Wahrheit« diesen Sinn hat und der Xoyoq ein\nbestimmter Modus des Sehenlassens ist, darf der Ä.oyo<; gerade\nn",
+        "ein\nbestimmter Modus des Sehenlassens ist, darf der Ä.oyo<; gerade\nnicht als der primäre »Ort« der Wahrheit angesprochen werden.\nWenn man, wie es heute durchgängig üblich geworden ist,\nWahrheit als das besti",
+        "äre »Ort« der Wahrheit angesprochen werden.\nWenn man, wie es heute durchgängig üblich geworden ist,\nWahrheit als das bestimmt, was »eigentlich« dem Urteil zukommt, und sich mit dieser These überdies auf Arist",
+        "hrheit« aber ist nur der Gegenfall zu diesem Verdecken - d. h. ein\nmehrfach fundiertes Phänomen von Wahrheit. Realismus und\nIdealismus verfehlen den Sinn des griechischen Wahrheitsbegriffes, aus dem heraus ma",
+        ". Jede Erschließung von Sein als des transcendens ist\ntranszendentale Erkenntnis. Phänomenologische Wahrheit\n(Erschlossenbeit von Sein) ist veritas transcendentalis."
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The primary challenge in translating \"Wahrheit\" lies in capturing Heidegger's departure from the conventional correspondence theory of truth. Heidegger reinterprets truth not as a static property of propositions but as a dynamic process of revealing or uncovering. This requires a translation that conveys both the traditional and Heideggerian senses of the term.",
+      "suggested_renderings": [
+        "**:",
+        "1. Truth",
+        "2. Unconcealment",
+        "3. Disclosure"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Wahrheit\" shifts depending on the context. In traditional contexts, it aligns with the correspondence theory of truth, where truth is a property of judgments or propositions. In Heidegger's reinterpretation, it refers to the process of \"unconcealment,\" where truth is about the revealing of beings and the world. This shift is crucial in understanding Heidegger's critique of previous philosophical traditions and his emphasis on the ontological dimensions of truth."
+    },
+    {
+      "canonical_form": "in-der-welt-sein",
+      "stem": "in-der-welt-sein",
+      "total_frequency": 152,
+      "morphological_forms": {
+        "in-der-welt-sein": 152
+      },
+      "contexts": [
+        "Das In-der-Welt-sein überhaupt als Grundverfassung des Daseins",
+        "Das In-der-Welt-sein als Mit- und Selbstsein. Das »Man«",
+        "l abzuheben. Und so werden Gegenstand der Analyse: die Welt in ihrer Weltlichkeit (3. Kapitel), das\nIn-der-Welt-sein als Mit- und Selbstsein (4. Kapitel), das In-Sein\nals solches (5. Kapitel). Auf dem Boden der Analy",
+        "Das In-der-Welt-sein überhaupt als Grundverfassung des",
+        "sen nun aber a priori\nauf dem Grunde der Seinsverfassung gesehen und verstanden\nwerden, die wir das In-der-Welt-sein nennen. Der rechte Ansatz\nder Analytik des Daseins besteht in der Auslegung dieser Verfassung.",
+        "Der zusammengesetzte Ausdruck »In-der-Welt-sein« zeigt\nschon in seiner Prägung an, daß mit ihm ein einheitliches Phänomen gemeint ist. Dieser primä",
+        "smomente bedeutet die Mithebung der anderen, das sagt: jeweilig ein Sehen des ganzen Phänomens. Das In-der-Welt-sein ist zwar eine a priori notwendige\nVerfassung des Daseins, aber längst nicht ausreichend, um dessen",
+        "n existenzi-\nalen Grundverfassungen des Daseins. Der Begriff der Faktizität\nbeschließt in sich: das In-der-Welt-sein eines »innerweltlichen«\nSeienden, so zwar, daß sich dieses Seiende verstehen kann als in\nseinem »Ge"
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"In-der-Welt-sein\" is challenging to translate because it is a compound German phrase that conveys a specific existential condition. It combines spatial, existential, and ontological dimensions, which are difficult to capture in a single English phrase. The term implies not just being physically in the world but being engaged with it in a meaningful way, encompassing both the subjective and objective aspects of existence.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Being-in-the-world",
+        "2. \"Existence-in-the-world",
+        "These translations attempt to maintain the compound nature of the original term while conveying the existential and ontological implications."
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"In-der-Welt-sein\" can shift slightly depending on the context. It can emphasize different aspects of Dasein's existence, such as its relational aspect (being with others), its self-awareness (being oneself), or its engagement with the world (being amidst entities). However, the core idea of Dasein's fundamental state of being intertwined with the world remains consistent across contexts."
+    },
+    {
+      "canonical_form": "welt-seins",
+      "stem": "welt-sein",
+      "total_frequency": 145,
+      "morphological_forms": {
+        "welt-seins": 114,
+        "welt-sein": 31
+      },
+      "contexts": [
+        "## § 12. Die Verzeichnung des In-der-Welt-seins aus der Orientierung am\nIn-Sein als solchem ... §13. Die Exemplifizierung des In-Seins an einem fun",
+        "aseins\n## § 22. Die Räumlichkeit des innerweltlich Zuhandenen ... § 23. Die Räumlichkeit des In-der-Welt-seins ... § 24. Die Räumlichkeit des Daseins und der Raum ... Viertes Kapitel",
+        "Zeitlichkeit des Verfallens ... d) Die Zeitlichkeit der Rede ... § 69. Die Zeitlichkeit des In-der-Welt-seins und das Problem der Transzendenz der Welt... a) Die Zeitlichkeit des umsichtigen Besorgens ... b) D",
+        "## § 12. Die Vorzeichnung des In-der-Welt-seins aus der Orientierung am In-Sein als solchem",
+        "2. Das Seiende, das je in der Weise des In-der-Welt-seins ist.\nGesucht wird mit ihm das, dem wir im »Wer?« nachfragen. In\nphänomenologischer Aufweisung soll",
+        "h der formale existenziale Ausdruck des Seins des Daseins, das die wesenhafte Verfassung des In-der-Welt-seins hat.",
+        "t\nselbst ein eigenes »Im-Raum-sein«, das aber seinerseits nur möglich ist auf dem Grunde des In-der-Welt-seins überhaupt. Das In-\nSein kann daher ontologisch auch nicht durch eine ontische Charakteristik verdeu",
+        "des\nso zusammengesetzten Seienden als solches bleibt erst recht dunkel. Das Verständnis des In-der-Welt-seins als Wesensstruktur des\nDaseins ermöglicht erst die Einsicht in die existenziale Räumlichkeit des Da"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"In-der-Welt-sein\" presents several translation challenges:\n  1. **Hyphenation and Compound Structure**: The German language allows for the creation of compound words that encapsulate complex ideas succinctly. \"In-der-Welt-sein\" combines \"in,\" \"the,\" \"world,\" and \"being,\" which can be awkward in English.\n  2. **Ontological Nuance**: The term conveys an ontological state rather than a mere spatial or locational condition, emphasizing an existential relationship with the world.\n  3. **Existential Context**: The term is deeply embedded in Heidegger's existential framework, which may not have direct equivalents in English philosophical vocabulary.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Being-in-the-world",
+        "2. \"Existence-in-the-world",
+        "3. \"World-involvement"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"In-der-Welt-sein\" can shift slightly depending on the context:\n  1. **Existential Analysis**: In contexts focusing on existential analysis, it emphasizes the fundamental way Dasein is situated in the world, highlighting the inseparability of self and world.\n  2. **Spatiality and Temporality**: When discussing spatiality or temporality, it underscores how Dasein's being is always already situated within a temporal and spatial framework.\n  3. **Ontological Structures**: In discussions of ontological structures, it serves to illustrate the foundational nature of Dasein's engagement with the world as a primary mode of being."
+    },
+    {
+      "canonical_form": "besorgen",
+      "stem": "besorg",
+      "total_frequency": 323,
+      "morphological_forms": {
+        "besorgens": 63,
+        "besorgen": 136,
+        "besorge": 1,
+        "besorgenden": 53,
+        "besorgende": 39,
+        "besorgendes": 13,
+        "besorgend": 17,
+        "besorgungen": 1
+      },
+      "contexts": [
+        "In-der-Welt-seins und das Problem der Transzendenz der Welt... a) Die Zeitlichkeit des umsichtigen Besorgens ... b) Der zeitliche Sinn der Modifikation des umsichtigen Besorgens\nzum theoretischen Entdecken de",
+        "e Zeitlichkeit des umsichtigen Besorgens ... b) Der zeitliche Sinn der Modifikation des umsichtigen Besorgens\nzum theoretischen Entdecken des innerweltlich Vorhandenen\n.356",
+        "bestimmen ... Diese Weisen des In-Seins haben die noch\neingehend zu charakterisierende Seinsart des Besorgens. Weisen\ndes Besorgens sind auch die defizienten Modi des Unterlassens,\nVersäumens, Verzichtens, Aus",
+        "isen des In-Seins haben die noch\neingehend zu charakterisierende Seinsart des Besorgens. Weisen\ndes Besorgens sind auch die defizienten Modi des Unterlassens,\nVersäumens, Verzichtens, Ausruhens, alle Modi des",
+        "assens,\nVersäumens, Verzichtens, Ausruhens, alle Modi des »Nur noch«\nin bezug auf Möglichkeiten des Besorgens. Der Titel »Besorgen«\nhat zunächst seine vorwissenschaftliche Bedeutung und kann\nbesagen: etwas aus",
+        "lichen Seienden nennen. Der Umgang hat sich schon zerstreut\nin eine Mannigfaltigkeit von Weisen des Besorgens. Die nächste\nArt des Umganges ist, wie gezeigt wurde, aber nicht das nur noch\nvernehmende Erkennen,",
+        "rängung der sich\nandrängenden und mitlaufenden Auslegungstendenzen, die das\nPhänomen eines solchen »Besorgens« überhaupt verdecken und\nin eins damit erst recht das Seiende, wie es von ihm selbst her im\nBesorge",
+        "Zur Alltäglichkeit des In-der-Welt-seins gehören Modi des\nBesorgens, die das besorgte Seiende so begegnen lassen, daß dabei\ndie Wehmäßigkeit des Innerweltlichen zum Vo"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"besorgen\" poses translation challenges due to its nuanced meaning in German, which encompasses notions of caring, managing, and dealing with things in a practical sense. It is not easily captured by a single English word, as it involves both the act of taking care of something and the broader context of practical engagement.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Concern\" - captures the sense of care and involvement but may lack the practical",
+        "everyday aspect.",
+        "2. \"Handling\" - emphasizes the practical",
+        "hands-on aspect but might miss the care dimension.",
+        "3. \"Engagement\" - conveys the active involvement with the world but can be too broad."
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"besorgen\" can shift depending on the context. In some instances, it emphasizes the practical, everyday dealings with objects and tasks (e.g., \"umsichtiges Besorgen\" - circumspect handling), while in others, it highlights the care and concern aspect of Dasein's engagement with the world. The term can also refer to deficient modes of engagement, such as neglect or omission, indicating a broader spectrum of interaction with the world."
+    },
+    {
+      "canonical_form": "entschlossenheit",
+      "stem": "entschloss",
+      "total_frequency": 152,
+      "morphological_forms": {
+        "entschlossenheit": 152
+      },
+      "contexts": [
+        "Die daseinsmäßige Bezeugung eines eigentlichen Seinkönnens und die\nEntschlossenheit",
+        "g der Zeitlichkeit... § 62. Das existenziell eigentliche Ganzseinkönnen des Daseins als vorlaufende Entschlossenheit... § 63. Die für eine Interpretation des Seins-sinnes der Sorge gewonnene",
+        "das Sein zum Tode (1. Kapitel); die daseinsmäßige\nBezeugung eines eigentlichen Seinkönnens und die Entschlossenheit (2. Kapitel); das eigentliche Ganzseinkönnen des Daseins und\ndie Zeitlichkeit als der ontologische",
+        "Die daseinsmäßige Bezeugung eines eigentlichen\nSeinkönnens und die Entschlossenheit",
+        "nzielle Wählen der Wahl\neines Selbstseins, das wir, seiner existenzialen Struktur entsprechend, die Entschlossenheit nennen. Die Gliederung der\nAnalysen dieses Kapitels ist damit vorgegeben: die existenzial-\nontologi",
+        "verschwiegene, angstbereite Sichentwerfen auf das eigenste\nSchuldigsein - nennen wir die Entschlossenheit.",
+        "Die Entschlossenheit ist ein ausgezeichneter Modus der\nErschlossenheit des Daseins. Die Erschlossenheit aber wurde\nfrühe",
+        "Nunmehr ist mit der Entschlossenheit die ursprünglichste, weil\neigentliche Wahrheit des Daseins gewonnen. Die Erschlossenheit\ndes Da ers"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Entschlossenheit\" is challenging to translate due to its nuanced meaning in Heidegger's philosophy. It combines notions of resolution, openness, and determination, which are not easily captured in a single English word. Additionally, it is deeply embedded in Heidegger's existential framework, which requires understanding the broader context of his philosophy.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Resoluteness",
+        "2. \"Determination",
+        "3. \"Resolution"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Entschlossenheit\" can shift slightly depending on the context. In some instances, it emphasizes the aspect of Dasein's openness to its own potentiality and future possibilities. In others, it highlights the decisiveness and commitment involved in choosing an authentic mode of existence. The term is also linked to the concept of \"Erschlossenheit\" (disclosedness), which underscores the interplay between being open to possibilities and making resolute choices."
+    },
+    {
+      "canonical_form": "auslegung",
+      "stem": "ausleg",
+      "total_frequency": 150,
+      "morphological_forms": {
+        "auslegung": 144,
+        "auslegungen": 6
+      },
+      "contexts": [
+        "Furcht als ein Modus der Befindlichkeit... § 31. Das Da-sein als Verstehen ... § 32. Verstehen und Auslegung ... § 33. Die Aussage als abkünftiger Modus der Auslegung ... § 34. Da-sein und Rede. Die Sprache .",
+        "ein als Verstehen ... § 32. Verstehen und Auslegung ... § 33. Die Aussage als abkünftiger Modus der Auslegung ... § 34. Da-sein und Rede. Die Sprache ... IX",
+        "Grundstrukturen ist in gewisser Weise schon geleistet durch die\nvorwissenschaftliche Erfahrung und Auslegung des Seinsbezirkes,\nin dem das Sachgebiet selbst begrenzt wird. Die so erwachsenen\n»Grundbegriffe« b",
+        "sprünglicheren, aus dem Sinn des Glaubens\nselbst vorgezeichneten und innerhalb seiner verbleibenden Auslegung des Seins des Menschen zu Gott. Sie beginnt langsam die\nEinsicht Luthers wieder zu verstehen, daß i",
+        "gewonnen\nwird, bedeutet solche vorgängige und Grundbegriffe schöpfende\nForschung nichts anderes als Auslegung dieses Seienden auf die\nGrundverfassung seines Seins. Solche Forschung muß den positiven Wissenscha",
+        "n. Beides\nbraucht nicht notwendig zusammenzugehen, schließt sich aber\nauch nicht aus. Existenzielle Auslegung kann existenziale Analytik fordern, wenn anders philosophische Erkenntnis in ihrer\nMöglichkeit und",
+        "erpretation der vorläufig aufgezeigten Daseinsstrukturen als Modi der Zeitlichkeit. Aber mit\ndieser Auslegung des Daseins als Zeitlichkeit ist nicht auch schon\ndie Antwort auf die leitende Frage gegeben, die n",
+        "ntologie im Lichte der Problematik der\nTemporalität gestellt. Hierbei wird offenbar, daß die antike Auslegung des Seins des Seienden an der »Welt« bzw. »Natur« im\nweitesten Sinne orientiert ist und daß sie in"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Auslegung\" presents translation challenges due to its nuanced meaning in Heidegger's philosophy. It encompasses both interpretation and the act of laying out or explicating something. The term is deeply embedded in Heidegger's existential framework, which can make it difficult to capture its full philosophical weight in English.",
+      "suggested_renderings": [
+        "**:",
+        "1. Interpretation",
+        "2. Explication",
+        "3. Exegesis"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Auslegung\" can shift slightly depending on the context. In some instances, it refers to the general act of interpretation, while in others, it may imply a more structured or formal explication of existential structures. Additionally, it can denote the process of making sense of one's own existence or the world, which is a fundamental aspect of Dasein's being."
+    },
+    {
+      "canonical_form": "erschlossenheit",
+      "stem": "erschloss",
+      "total_frequency": 145,
+      "morphological_forms": {
+        "erschlossenheit": 145
+      },
+      "contexts": [
+        "r\n»Außenwelt« ... b) Realität als ontologisches Problem ... c) Realität und Sorge ... § 44. Dasein, Erschlossenheit und Wahrheit... a) Der traditionelle Wahrheitsbegriff und seine ontologischen\nFundamente ... b) Das",
+        "sung des Daseins und\ndie Vorzeichnung ihrer zeitlichen Interpretation ... §68. Die Zeitlichkeit der Erschlossenheit überhaupt... a) Die Zeitlichkeit des Verstehens ... b) Die Zeitlichkeit der Befindlichkeit... c) Di",
+        "diese immer auf Seiendes geht, aber es ist\nfür die Umsicht je schon erschlossen. »Erschließen« und\n»Erschlossenheit« werden im folgenden terminologisch gebraucht\nund bedeuten »auf schließen« - »Aufgeschlossenheit«.",
+        "eingehender zu analysierende Verstehen\n(vgl. § 31) hält die angezeigten Bezüge in einer vorgängigen\nErschlossenheit. Im vertrauten Sich-darin-halten hält es sich diese\nvor als das, worin sich sein Verweisen bewegt.",
+        "ch nichts von der reinen Mannigfaltigkeit der drei Dimensionen. Der Raum bleibt bei dieser nächsten Erschlossenheit noch\nverborgen als das reine Worin einer metrischen Stellenordnung\nund Lagebestimmung. Woraufhin de",
+        "Anderer sind diese in ihrem Dasein\nschon erschlossen. Diese mit dem Mitsein vorgängig konstituierte\nErschlossenheit der Anderen macht demnach auch die Bedeutsamkeit, d. h. die Weltlichkeit mit aus, als welche sie im",
+        "Die zum Mitsein gehörige Erschlossenheit des Mitdaseins\nAnderer besagt: im Seinsverständnis des Daseins liegt schon, weil\nsein Sein Mitsein",
+        "einem\neigensten Sein den Charakter der Unverschlossenheit. Der Ausdruck »Da« meint diese wesenhafte Erschlossenheit. Durch sie ist\ndieses Seiende (das Dasein) in eins mit dem Da-sein von Welt für\nes selbst »da«."
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Erschlossenheit\" poses significant translation challenges due to its nuanced meaning in Heidegger's philosophy. It combines notions of \"openness,\" \"disclosure,\" and \"unconcealment,\" which are not easily captured by a single English word. The term also implies an active process of revealing or making accessible, which is deeply tied to Heidegger's unique existential and phenomenological framework.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Disclosedness",
+        "2. \"Openness",
+        "3. \"Unconcealment"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Erschlossenheit\" can shift slightly depending on the context. In some instances, it emphasizes the active process of Dasein's engagement with the world, highlighting how beings are made accessible or intelligible. In other contexts, it underscores the inherent openness of Dasein to its own possibilities and the world around it. The term can also relate to the idea of truth as aletheia, or the revealing of beings as they are."
+    },
+    {
+      "canonical_form": "seinsverfassung",
+      "stem": "seinsverfass",
+      "total_frequency": 74,
+      "morphological_forms": {
+        "seinsverfassung": 74
+      },
+      "contexts": [
+        "uktive Logik in dem\nSinne, daß sie in ein bestimmtes Seinsgebiet gleichsam vorspringt,\nes in seiner Seinsverfassung allererst erschließt und die gewonnenen Strukturen den positiven Wissenschaften als durchsichtige\nA",
+        "ontisch ausgezeichnet,\ndaß es diesem Seienden in seinem Sein um dieses Sein selbst geht.\nZu dieser Seinsverfassung des Daseins gehört aber dann, daß es\nin seinem Sein zu diesem Sein ein Seinsverhältnis hat. Und die",
+        "en je schon immer einer vorgängigen Hinblicknahme auf Existenzialität. Diese verstehen wir\naber als Seinsverfassung des Seienden, das existiert. In der Idee\neiner solchen Seinsverfassung liegt aber schon die Idee vo",
+        "Diese verstehen wir\naber als Seinsverfassung des Seienden, das existiert. In der Idee\neiner solchen Seinsverfassung liegt aber schon die Idee von Sein.\nUnd so hängt auch die Möglichkeit einer Durchführung der\nAnalyt",
+        "en, gleich als ob dieses Seinsverständnis einer thematisch ontologischen Besinnung auf die\neigenste Seinsverfassung entspringen müßte. Das Dasein hat\nvielmehr gemäß einer zu ihm gehörigen Seinsart die Tendenz, das\ne",
+        "ntisch-ontologische Vorrang des Daseins ist daher der\nGrund dafür, daß dem Dasein seine spezifische Seinsverfassung -\nverstanden im Sinne der ihm zugehörigen »kategorialen« Struktur - verdeckt bleibt. Dasein ist ihm",
+        "nennt. Geschichtlichkeit meint die Seinsverfassung des »Geschehens« des Daseins als solchen, auf dessen Grunde allererst so\netwas möglich ist wie »Wel",
+        "torie ist\nkein Beweis gegen die Geschichtlichkeit des Daseins, sondern als\ndefizienter Modus dieser Seinsverfassung Beweis dafür. Unhistorisch kann ein Zeitalter nur sein, weil es »geschichtlich« ist."
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Seinsverfassung\" combines \"Sein\" (being) with \"Verfassung\" (constitution or condition), which can be difficult to convey in English without losing the philosophical nuance. The challenge lies in capturing the ontological depth and the idea of an inherent structure or condition of being.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Constitution of being",
+        "2. \"Ontological constitution",
+        "3. \"Condition of being"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Seinsverfassung\" can shift slightly depending on the context. In some instances, it refers specifically to the existential structure of Dasein, while in others, it might address broader ontological conditions applicable to different beings. The term can also imply a dynamic aspect of being, such as historicality or existentiality, which are specific modes of Dasein's being."
+    },
+    {
+      "canonical_form": "sorge",
+      "stem": "sorg",
+      "total_frequency": 252,
+      "morphological_forms": {
+        "sorge": 250,
+        "sorgen": 1,
+        "sorgens": 1
+      },
+      "contexts": [
+        "er ... § 37. Die Zweideutigkeit... § 38. Das Verfallen und die Geworfenheit... Sechstes Kapitel\nDie Sorge als Sein des Daseins",
+        "der Angst als eine ausgezeichnete Er-\nschlossenheit des Daseins ... § 41. Das Sein des Daseins als Sorge ... § 42. Die Bewährung der existenzialen Interpretation des Daseins als\nSorge aus der vorontologis",
+        "Sein des Daseins als Sorge ... § 42. Die Bewährung der existenzialen Interpretation des Daseins als\nSorge aus der vorontologischen Selbstauslegung des Daseins ...",
+        "und der Beweisbarkeit der\n»Außenwelt« ... b) Realität als ontologisches Problem ... c) Realität und Sorge ... § 44. Dasein, Erschlossenheit und Wahrheit... a) Der traditionelle Wahrheitsbegriff und seine o",
+        "undamente des Gewissens ... § 56. Der Rufcharakter des Gewissens ... § 57. Das Gewissen als Ruf der Sorge ... § 58. Anrufverstehen und Schuld ... §59. Die existenziale Interpretation des Gewissens und die",
+        "Das eigentliche Ganzseinkönnen des Daseins und die Zeitlichkeit als der\nontologische Sinn der Sorge",
+        "Daseins als vorlaufende Entschlossenheit... § 63. Die für eine Interpretation des Seins-sinnes der Sorge gewonnene",
+        "meneutische Situation und der methodische Charakter der exi-\nstenzialen Analytik überhaupt... § 64. Sorge und Selbstheit... § 65. Die Zeitlichkeit als der ontologische Sinn der Sorge ... § 66. Die Zeitlich"
+      ],
+      "philosophical_importance": 10,
+      "is_core_concept": true,
+      "translation_challenges": "**: The term \"Sorge\" in Heidegger's \"Being and Time\" is challenging to translate because it encompasses a range of meanings that are not fully captured by a single English word. It is often translated as \"care,\" but this can be misleading if understood in the everyday sense of concern or worry. In Heidegger's existential framework, \"Sorge\" refers to the fundamental structure of Dasein (being-there) that underlies its existence, encompassing aspects of concern, involvement, and being-toward. It is deeply tied to temporality and the existential condition of being thrown into the world.",
+      "suggested_renderings": [
+        "**:",
+        "1. Care",
+        "2. Concern",
+        "3. Being-toward"
+      ],
+      "contextual_variations": "**: The meaning of \"Sorge\" can shift depending on the context within \"Being and Time.\" In some sections, it emphasizes the existential condition of Dasein's involvement with the world and its projects. In others, it highlights the temporal aspect of Dasein's existence, such as being-toward-death. Additionally, \"Sorge\" can relate to the authenticity of Dasein's existence, where it involves taking responsibility for one's own being. The term's flexibility allows it to address different facets of human existence, making it a central and multifaceted concept in Heidegger's philosophy."
+    },
+    {
+      "canonical_form": "wissenschaft",
+      "stem": "wissenschaft",
+      "total_frequency": 115,
+      "morphological_forms": {
+        "wissenschaftlichen": 11,
+        "wissenschaftliche": 10,
+        "wissenschaften": 20,
+        "wissenschaft": 64,
+        "wissenschaftlich": 2,
+        "wissenschaftlicher": 5,
+        "wissenschaftlichkeit": 1,
+        "wissenschaftliches": 2
+      },
+      "contexts": [
+        "seits, z. B. Geschichte, Natur, Raum, Leben, Dasein, Sprache\nund dgl. lassen sich in entsprechenden wissenschaftlichen Untersuchungen zu Gegenständen thematisieren. Wissenschaftliche\nForschung vollzieht die Hebung und",
+        "h - möchte\nman erwidern - reichlich selbstverständlich und überdies ein\nAusdruck des Prinzips jeder wissenschaftlichen Erkenntnis. Man\nsieht nicht ein, warum diese Selbstverständlichkeit ausdrücklich\nin die Titelbezeic",
+        "r »Rede« sich\nso modifizieren können, daß Xbyoq all das Aufgezählte bedeutet\nund zwar innerhalb des wissenschaftlichen Sprachgebrauchs?\nAuch wenn Xoyog im Sinne von Aussage verstanden wird, Aussage aber als »Urteil«, d",
+        "Andrerseits hegt aber in der rechtverstandenen Tendenz aller\nwissenschaftlichen ernsthaften »Lebensphilosophie« - das Wort\nsagt so viel wie die Botanik der Pflanzen - unausdrückli",
+        "ern auch das\nhierfür notwendige Werkzeug handhaben gelernt. Der »Apriorismus« ist\ndie Methode jeder wissenschaftlichen Philosophie, die sich selbst\nversteht. Weil er nichts mit Konstruktion zu tun hat, verlangt die\nApr",
+        ", wenn anders über eine Kenntnisnahme von Seiendem hinaus die Frage nach dem Sein der Stachel\nalles wissenschaftlichen Suchens ist.",
+        "isen von Verstehen\nund Auslegung, in der philologischen Interpretation. Diese gehört\nin den Umkreis wissenschaftlichen Erkennens. Dergleichen\nErkenntnis verlangt die Strenge der begründenden Ausweisung.\nWissenschaftlic",
+        "iegt wesenhaft die Sorge des\nSehens. Damit wird eine Untersuchung eingeleitet, die den\nUrsprung der wissenschaftlichen Erforschung des Seienden und\nseines Seins aus der genannten Seinsart des Daseins aufzudecken\nsucht,"
+      ],
+      "philosophical_importance": 7,
+      "is_core_concept": false,
+      "translation_challenges": "**:  \n  The term \"wissenschaft\" is often translated as \"science,\" but this can be misleading. In German, \"wissenschaft\" encompasses a broader range of systematic inquiry, including the humanities and social sciences, not just the natural sciences. This broader meaning is crucial for understanding Heidegger's critique of scientific approaches to understanding Being.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Science",
+        "2. \"Scholarship",
+        "3. \"Systematic inquiry"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"wissenschaft\" can shift depending on the context. In some instances, it refers specifically to the natural sciences, while in others, it encompasses a broader range of scholarly activities, including philosophy. Heidegger often contrasts \"wissenschaft\" with more existential or phenomenological approaches to understanding, highlighting its limitations in grasping the essence of Being."
+    },
+    {
+      "canonical_form": "alltäglichkeit",
+      "stem": "alltag",
+      "total_frequency": 112,
+      "morphological_forms": {
+        "alltäglichkeit": 112
+      },
+      "contexts": [
+        "§51. Das Sein zum Tode und die Alltäglichkeit des Daseins ... § 52. Das alltägliche Sein zum Ende und der volle existenziale Begriff des\nTodes ..",
+        "Zeitlichkeit und Alltäglichkeit",
+        "der Welt ... § 70. Die Zeitlichkeit der daseinsmäßigen Räumlichkeit... §71. Der zeitliche Sinn der Alltäglichkeit des Daseins ... XI",
+        "r soll sie das Seiende in dem zeigen, wie es zunächst und zumeist ist, in seiner durchschnittlichen\nAlltäglichkeit. An dieser sollen nicht beliebige und",
+        "faktischen Daseins sich als seinsbestim-\nmende durchhalten. Im Hinblick auf die Grundverfassung der\nAlltäglichkeit des Daseins erwächst dann die vorbereitende\nHebung des Seins dieses Seienden.",
+        "iert, sondern in seinem indifferenten Zunächst und Zumeist aufgedeckt\nwerden. Diese Indifferenz der Alltäglichkeit des Daseins ist nicht\nnichts, sondern ein positiver phänomenaler Charakter dieses\nSeienden. Aus die",
+        "Und weil nun die durchschnittliche Alltäglichkeit das ontische\nZunächst dieses Seienden ausmacht, wurde sie und wird sie immer wieder in der Explikat",
+        "Die durchschnittliche Alltäglichkeit des Daseins darf aber nicht\nals ein bloßer »Aspekt« genommen werden. Auch in ihr und\nselbst im Modu"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Alltäglichkeit\" is challenging to translate because it encapsulates the notion of everydayness with philosophical depth. It implies not just the routine or ordinary, but a fundamental existential condition of Dasein. The term carries connotations of both the mundane and the ontological, which can be difficult to convey in English without losing nuance.",
+      "suggested_renderings": [
+        "**:",
+        "1. Everydayness",
+        "2. Ordinariness",
+        "3. Mundanity"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Alltäglichkeit\" can shift slightly depending on the context. In some instances, it refers to the indifferent, average way in which Dasein encounters the world (\"durchschnittliche Alltäglichkeit\"), emphasizing a lack of reflection or authenticity. In other contexts, it highlights the foundational nature of everyday experiences in shaping Dasein's understanding of being. Despite these variations, the core idea remains focused on the everyday as a primary mode of being."
+    },
+    {
+      "canonical_form": "geschichtlichkeit",
+      "stem": "geschicht",
+      "total_frequency": 111,
+      "morphological_forms": {
+        "geschichtlichkeit": 111
+      },
+      "contexts": [
+        "Zeitlichkeit und Geschichtlichkeit",
+        "vulgäre Verständnis der Geschichte und das Geschehen des\nDaseins ... § 74. Die Grundverfassung der Geschichtlichkeit... § 75. Die Geschichtlichkeit des Daseins und die Welt-Geschichte ... §76. Der existenziale Urspru",
+        "chte und das Geschehen des\nDaseins ... § 74. Die Grundverfassung der Geschichtlichkeit... § 75. Die Geschichtlichkeit des Daseins und die Welt-Geschichte ... §76. Der existenziale Ursprung der Historie aus der Geschic",
+        "ichkeit des Daseins und die Welt-Geschichte ... §76. Der existenziale Ursprung der Historie aus der Geschichtlichkeit\ndes Daseins ... § 77. Der Zusammenhang der vorstehenden Exposition des Problems\nder Geschichtlichke",
+        "schichtlichkeit\ndes Daseins ... § 77. Der Zusammenhang der vorstehenden Exposition des Problems\nder Geschichtlichkeit mit den Forschungen W. Diltheys und den\nIdeen des Grafen Yorck ... Sechstes Kapitel",
+        "ls Objekt der Flistorie,\nsondern die Interpretation des eigentlich geschichtlich Seienden\nauf seine Geschichtlichkeit. So beruht denn auch der positive\nErtrag von Kants Kritik der reinen Vernunft im Ansatz zu einer\nHe",
+        "findet seinen Sinn in der Zeitlichkeit. Diese\njedoch ist zugleich die Bedingung der Möglichkeit von\nGeschichtlichkeit als einer zeitlichen Seinsart des Daseins selbst,\nabgesehen davon, ob und wie es ein »in der Zeit«",
+        "t des Daseins selbst,\nabgesehen davon, ob und wie es ein »in der Zeit« Seiendes ist.\nDie Bestimmung Geschichtlichkeit hegt vor dem, was man\nGeschichte (weltgeschichtliches Geschehen)"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Geschichtlichkeit\" poses translation challenges due to its nuanced meaning in Heidegger's philosophy. It combines the notions of history, historicity, and the existential condition of being historical. The term is deeply embedded in Heidegger's exploration of time and existence, making it difficult to capture all its connotations in a single English word.",
+      "suggested_renderings": [
+        "**:",
+        "1. Historicity",
+        "2. Historicality",
+        "3. Temporal historicity"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Geschichtlichkeit\" can shift depending on the context within \"Being and Time.\" It can refer to the existential condition of Dasein as being historical, the way Dasein understands itself through its historical context, or the broader implications of history on the understanding of being. In some contexts, it emphasizes the temporal aspect of existence, while in others, it highlights the interpretative nature of historical understanding."
+    },
+    {
+      "canonical_form": "befindlichkeit",
+      "stem": "befind",
+      "total_frequency": 109,
+      "morphological_forms": {
+        "befindlichkeit": 109
+      },
+      "contexts": [
+        "matischen Analyse des In-Seins ... A. Die existenziale Konstitution des Da\n## § 29. Das Da-sein als Befindlichkeit... § 30. Die Furcht als ein Modus der Befindlichkeit... § 31. Das Da-sein als Verstehen ... § 32. V",
+        "e Konstitution des Da\n## § 29. Das Da-sein als Befindlichkeit... § 30. Die Furcht als ein Modus der Befindlichkeit... § 31. Das Da-sein als Verstehen ... § 32. Verstehen und Auslegung ... § 33. Die Aussage als abkü",
+        "eit der Erschlossenheit überhaupt... a) Die Zeitlichkeit des Verstehens ... b) Die Zeitlichkeit der Befindlichkeit... c) Die Zeitlichkeit des Verfallens ... d) Die Zeitlichkeit der Rede ... § 69. Die Zeitlichkeit d",
+        "Die beiden gleichursprünglichen konstitutiven Weisen, das Da\nzu sein, sehen wir in der Befindlichkeit und im Verstehen; deren\nAnalyse erhält jeweils durch die Interpretation eines konkreten\nund für die",
+        "onkreten\nund für die nachkommende Problematik wichtigen Modus die\nnotwendige phänomenale Bewährung. Befindlichkeit und Verstehen sind gleichursprünglich bestimmt durch die Rede.",
+        "Unter A (die existenziale Konstitution des Da) wird demnach\nbehandelt: das Da-sein als Befindlichkeit (§ 29), die Furcht als ein\nModus der Befindlichkeit (§ 30), das Da-sein als Verstehen\n(§ 31), Verst",
+        "des Da) wird demnach\nbehandelt: das Da-sein als Befindlichkeit (§ 29), die Furcht als ein\nModus der Befindlichkeit (§ 30), das Da-sein als Verstehen\n(§ 31), Verstehen und Auslegung (§ 32), die Aussage als abkünftig",
+        "A. Die existenziale Konstitution des Da\n## § 29. Das Da-sein als Befindlichkeit"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Befindlichkeit\" is challenging to translate due to its nuanced meaning that combines aspects of mood, disposition, and situatedness. It captures how Dasein is always already in a certain state of mind or mood, which reveals its thrownness into the world. The term also implies a reflexive awareness of one's own state, which is not easily conveyed in English.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Attunement",
+        "2. \"Disposition",
+        "3. \"State-of-mind"
+      ],
+      "contextual_variations": "**:  \n  While the core meaning of \"Befindlichkeit\" as a fundamental aspect of Dasein's being remains consistent, its implications can vary. For instance, in the context of fear (§ 30), it highlights how specific moods can disclose the world in particular ways. In other contexts, it may emphasize the temporal aspect of how Dasein finds itself, as seen in discussions of the temporality of Befindlichkeit."
+    },
+    {
+      "canonical_form": "bedeutung",
+      "stem": "bedeut",
+      "total_frequency": 104,
+      "morphological_forms": {
+        "bedeutung": 85,
+        "bedeutungen": 19
+      },
+      "contexts": [
+        "druck\n»zeitlich« durch den vorphilosophischen und philosophischen\nSprachgebrauch in der angeführten Bedeutung belegt ist und weil\nder Ausdruck in den folgenden Untersuchungen noch für eine\nandere Bedeutung in",
+        "ten Bedeutung belegt ist und weil\nder Ausdruck in den folgenden Untersuchungen noch für eine\nandere Bedeutung in Anspruch genommen wird, nennen wir die\nursprüngliche Sinnbestimmtheit des Seins und seiner Chara",
+        "Die Geschichte des Wortes selbst, das vermutlich in der Schule Wolffs entstand, ist hier\nnicht von Bedeutung.",
+        "röq, das Licht, die\nHelle, d. h. das, worin etwas offenbar, an ihm selbst sichtbar\nwerden kann. Als Bedeutung des Ausdrucks »Phänomen« ist\ndaher festzuhalten: das Sich-an-ihm-selbst-zeigende, das Offenbare. Di",
+        "zeigen nennen wir Scheinen. Und so hat\nauch im Griechischen der Ausdruck (patvopevov, Phänomen, die\nBedeutung, das so Aussehende wie, das »Scheinbare«, der\n»Schein«; (patvopevov dyocGov meint ein Gutes, das so",
+        "zu sein, kann es sich zeigen als etwas, was\nes nicht ist, kann es »nur so aussehen wie...«. In der Bedeutung\ncpatvopevov (»Schein«) liegt schon die ursprüngliche Bedeutung\n(Phänomen: das Offenbare) mitbeschlo",
+        "es »nur so aussehen wie...«. In der Bedeutung\ncpatvopevov (»Schein«) liegt schon die ursprüngliche Bedeutung\n(Phänomen: das Offenbare) mitbeschlossen als die zweite fundierend. Wir weisen den Titel »Phänomen«",
+        "zweite fundierend. Wir weisen den Titel »Phänomen« terminologisch der positiven und ursprünglichen Bedeutung von (patvopevov zu und\nunterscheiden Phänomen von Schein als der privativen Modifikation von Phänom"
+      ],
+      "philosophical_importance": 7,
+      "is_core_concept": false,
+      "translation_challenges": "**:  \n  The term \"Bedeutung\" can be challenging to translate due to its nuanced implications in German, where it can mean \"meaning,\" \"significance,\" or \"importance.\" Heidegger's philosophical context often requires a more precise understanding of how meaning is constructed and perceived, which can vary significantly from everyday usage.",
+      "suggested_renderings": [
+        "**:",
+        "1. Meaning",
+        "2. Significance",
+        "3. Import"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Bedeutung\" can shift depending on the context within \"Being and Time.\" It can refer to the general concept of meaning in language, the significance of a philosophical term, or the importance of a concept within a specific philosophical argument. The term's usage often reflects Heidegger's broader inquiry into how meaning is constituted and understood, which can vary across different sections of the text."
+    },
+    {
+      "canonical_form": "einheit",
+      "stem": "einheit",
+      "total_frequency": 102,
+      "morphological_forms": {
+        "einheit": 90,
+        "einheitliches": 3,
+        "einheitlichen": 5,
+        "einheitlich": 2,
+        "einheitliche": 2
+      },
+      "contexts": [
+        "gemeinheit. »Sein« ist nach der Bezeichnung der mittelalterlichen Ontologie ein »transcendens«. Die Einheit dieses transzendental »Allgemeinen« gegenüber der Mannigfaltigkeit der sach- J\nhaltigen obersten Ga",
+        "der Mannigfaltigkeit der sach- J\nhaltigen obersten Gattungsbegriffe hat schon Aristoteles als die L\nEinheit der Analogie erkannt. Mit dieser Entdeckung hat Aristoteles bei aller Abhängigkeit von der ontologi",
+        "Blickrichtung\nwie die antike Ontologie, nur daß er das von Aristoteles schon\ngestellte Problem der Einheit des Seins gegenüber der Mannigfaltigkeit der sachhaltigen »Kategorien« aus der Hand gibt. Wenn\nman",
+        "sierung identisch. Person ist jedenfalls als Vollzieher intentiofläler\nAkte gegeben, die durch die Einheit eines Sinnes verbunden sind.\nPsychisches Sein hat also mit Personsein nichts zu tun. Akte werden vo",
+        "bleiben. Die Frage steht nach dem Sein des\nganzen Menschen, den man als leiblich-seelisch-geistige Einheit\nzu fassen gewohnt ist. Leib, Seele, Geist mögen wiederum Phänomenbezirke nennen, die in Absicht auf",
+        "s Dienlichkeit und Verweisung als Zeigen\nsichtbar. Beide fallen so wenig zusammen, daß sie in ihrer Einheit\ndie",
+        "e Räumlichkeit hat aber\ndurch die weltmäßige Bewandtnisganzheit des räumlich Zuhandenen ihre eigene Einheit. Die »Umwelt« richtet sich nicht in\neinem zuvorgegebenen Raum ein, sondern ihre spezifische Weltlic",
+        "t sich als das kategoriale Ganze einer Möglichkeit des\nZusammenhangs von Zuhandenem. Aber auch die »Einheit« des\nmannigfaltigen Vorhandenen, die Natur,"
+      ],
+      "philosophical_importance": 7,
+      "is_core_concept": false,
+      "translation_challenges": "**:  \n  The term \"Einheit\" can be challenging to translate due to its nuanced implications of unity, coherence, and wholeness. It can refer to both abstract and concrete forms of unity, which may not always be directly translatable into English without losing some of its philosophical depth.",
+      "suggested_renderings": [
+        "**:",
+        "1. Unity",
+        "2. Coherence",
+        "3. Wholeness"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Einheit\" can shift depending on the context. In some instances, it refers to the unity of existential structures or categories, while in others, it might denote the coherence of a particular phenomenon or the wholeness of an entity. The term can also imply a transcendental unity, as seen in discussions of ontological categories, or a more concrete unity, such as the unity of the human being as a composite of body, soul, and spirit."
+    },
+    {
+      "canonical_form": "weltlichkeit",
+      "stem": "weltlich",
+      "total_frequency": 94,
+      "morphological_forms": {
+        "weltlichkeit": 78,
+        "weltlich": 7,
+        "weltlichen": 3,
+        "weltliche": 4,
+        "weltliches": 2
+      },
+      "contexts": [
+        "e Exemplifizierung des In-Seins an einem fundierten Modus. Das\nWelterkennen ... Drittes Kapitel\nDie Weltlichkeit der Welt",
+        "## § 14. Die Idee der Weltlichkeit der Welt überhaupt... A. Die Analyse der Umweltlichkeit und Weltlichkeit überhaupt\n§15. Das Sein de",
+        "## § 14. Die Idee der Weltlichkeit der Welt überhaupt... A. Die Analyse der Umweltlichkeit und Weltlichkeit überhaupt\n§15. Das Sein des in der Umwelt begegnenden Seienden ... § 16. Die am innerweltlich Seien",
+        "Weltmäßigkeit der\nUmwelt... § 17. Verweisung und Zeichen ... §18. Bewandtnis und Bedeutsamkeit; die Weltlichkeit der Welt... B. Die Abhebung der Analyse der Weltlichkeit gegen die Interpretation\nder Welt bei Desc",
+        "... §18. Bewandtnis und Bedeutsamkeit; die Weltlichkeit der Welt... B. Die Abhebung der Analyse der Weltlichkeit gegen die Interpretation\nder Welt bei Descartes",
+        "## § 43. Dasein, Weltlichkeit und Realität... a) Realität als Problem des Seins und der Beweisbarkeit der\n»Außenwelt« ... b) Real",
+        "ur sind\ndiese Momente phänomenal abzuheben. Und so werden Gegenstand der Analyse: die Welt in ihrer Weltlichkeit (3. Kapitel), das\nIn-der-Welt-sein als Mit- und Selbstsein (4. Kapitel), das In-Sein\nals solches (5",
+        "es Moment erwächst die\nAufgabe, der ontologischen Struktur von »Welt« nachzufragen\nund die Idee der Weltlichkeit als solcher zu bestimmen (vgl. Kap."
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Weltlichkeit\" poses several translation challenges:\n  1. **Nuance and Depth**: The term encompasses a rich philosophical depth that is difficult to capture in English. It refers not just to the \"worldliness\" of the world but also to the ontological structure that makes the world intelligible to Dasein.\n  2. **Contextual Specificity**: Heidegger uses \"Weltlichkeit\" in various contexts, each with subtle shifts in meaning, making it challenging to find a single English equivalent that works universally.\n  3. **Philosophical Tradition**: The term is deeply embedded in Heidegger's critique of Cartesian and traditional metaphysics, which requires a translation that respects its philosophical implications.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Worldliness",
+        "2. \"Worldhood",
+        "3. \"Worldly nature"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Weltlichkeit\" can shift depending on the context:\n  1. **Ontological Structure**: In some contexts, it refers to the ontological structure that allows Dasein to encounter the world as meaningful.\n  2. **Critique of Metaphysics**: In other instances, it is used to critique traditional metaphysical notions of the world, emphasizing a more existential understanding.\n  3. **Relation to Dasein**: It also highlights the relationship between Dasein and the world, focusing on how Dasein's being is always already situated in a world."
+    },
+    {
+      "canonical_form": "bestimmung",
+      "stem": "bestimm",
+      "total_frequency": 86,
+      "morphological_forms": {
+        "bestimmung": 69,
+        "bestimmungen": 17
+      },
+      "contexts": [
+        "## § 19. Die Bestimmung der »Welt« als res extensa ... § 20. Die Fundamente der ontologischen Bestimmung der »Welt« ... §21",
+        "## § 19. Die Bestimmung der »Welt« als res extensa ... § 20. Die Fundamente der ontologischen Bestimmung der »Welt« ... §21. Die hermeneutische Diskussion der cartesischen Ontologie der\n»Welt« ... C. Das",
+        "## § 46. Die scheinbare Unmöglichkeit einer ontologischen Erfassung und\nBestimmung des daseinsmäßigen Ganzseins ... § 47. Die Erfahrbarkeit des Todes der Anderen und die Erfassungsmö",
+        "kommen. Und wenn schließlich Hegel das\n»Sein« bestimmt als das »unbestimmte Unmittelbare« und diese\nBestimmung allen weiteren kategorialen Explikationen seiner\n»Logik« zugrunde legt, so hält er sich in derselbe",
+        "sich« besteht, herauszustellen. Als\nTheorie der Zugangsbedingungen zur Natur selbst sucht sie\ndurch Bestimmung aller Relativi-",
+        "ht sich an deren Überbrückung.\n»Zeitlich« besagt hier jeweils soviel wie »in der Zeit« seiend, eine\nBestimmung, die freilich auch noch dunkel genug ist. Das Faktum\nbesteht: Zeit, im Sinne von »in der Zeit sein«",
+        "hen Seinsart des Daseins selbst,\nabgesehen davon, ob und wie es ein »in der Zeit« Seiendes ist.\nDie Bestimmung Geschichtlichkeit hegt vor dem, was man\nGeschichte (weltgeschichtliches Geschehen)",
+        "he grundsätzliche\nTragweite dieses Hereinwirken der mittelalterlichen Ontologie in\ndie ontologische Bestimmung, bzw. Nichtbestimmung der res\ncogitans für die Folgezeit hat. Diese Tragweite ist erst abzuschätzen"
+      ],
+      "philosophical_importance": 7,
+      "is_core_concept": false,
+      "translation_challenges": "**:  \n  The term \"Bestimmung\" can be challenging to translate due to its multiple meanings, including \"determination,\" \"definition,\" and \"designation.\" It often carries ontological and existential connotations that are context-dependent, making it difficult to capture its full nuance in English.",
+      "suggested_renderings": [
+        "**:",
+        "1. Determination",
+        "2. Definition",
+        "3. Designation"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Bestimmung\" can shift depending on the context. For instance, in discussions of the \"ontological determination of the world,\" it might lean more towards \"definition\" or \"characterization.\" In other contexts, such as when discussing the nature of Dasein, it might imply \"determination\" in the sense of existential or ontological grounding. The term can also imply a process of defining or setting boundaries, which can vary based on the specific philosophical issue being addressed."
+    },
+    {
+      "canonical_form": "bedarf",
+      "stem": "bedarf",
+      "total_frequency": 94,
+      "morphological_forms": {
+        "bedarf": 94
+      },
+      "contexts": [
+        "olcher\nwidersteht er jedem Definitionsversuch. Dieser allgemeinste und\ndaher undefinierbare Begriff bedarf auch keiner Definition. Jeder\ngebraucht ihn ständig und versteht auch schon, was er je damit\nmeint.",
+        "nach dem Sinn von Sein soll gestellt werden. Wenn\nsie eine oder gar die Fundamentalfrage ist, dann bedarf solches\nFragen der angemessenen Durchsichtigkeit. Daher muß kurz\nerörtert werden, was überhaupt zu",
+        "Als Suchen bedarf das Fragen einer vorgängigen Leitung vom\nGesuchten her. Der Sinn von Sein muß uns daher schon in ge",
+        "Ontologie im weitesten Sinne genommen\nund ohne Anlehnung an ontologische Richtungen und Tendenzen\n- bedarf selbst noch eines Leitfadens. Ontologisches Fragen ist\nzwar gegenüber dem ontischen Fragen der posi",
+        "Aufgabe einer nicht deduktiv konstruierenden Genealogie der verschiedenen möglichen Weisen von Sein bedarf einer\nVorverständigung über das, »was wir denn eigentlich mit diesem\nAusdruck >Sein< meinen«.",
+        "nen wir das\nexistenzielle. Die Frage der Existenz ist eine ontische »Angelegenheit« des Daseins. Es bedarf hierzu nicht der theoretischen\nDurchsichtigkeit der ontologischen Struktur der Existenz. Die\nFrage",
+        "Sofern nun aber Existenz das Dasein bestimmt, bedarf die\nontologische Analytik dieses Seienden je schon immer einer vorgängigen Hinblicknahme auf Existe",
+        "der »Stellung« der\nSeinsfrage liegen, wurde gezeigt, daß es nicht nur einer Fixierung\ndes Seienden bedarf, das als primär Befragtes fungieren soll, sondern daß auch eine ausdrückliche Aneignung und Sicheru"
+      ],
+      "philosophical_importance": 6,
+      "is_core_concept": false,
+      "translation_challenges": "**:  \n  The term \"bedarf\" presents challenges in translation due to its nuanced meaning of \"necessity\" or \"requirement,\" which can vary depending on context. It often implies a need for something to be fulfilled or addressed, which can be difficult to capture succinctly in English without losing the philosophical depth.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"requires",
+        "2. \"necessitates",
+        "3. \"demands"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"bedarf\" can shift slightly depending on the context. In some instances, it refers to the necessity of understanding or defining a concept, while in others, it indicates the requirement of a methodological approach or the need for a particular perspective. The term consistently conveys a sense of something essential or indispensable for the philosophical inquiry or structure being discussed."
+    },
+    {
+      "canonical_form": "seinsverständnis",
+      "stem": "seinsverstandnis",
+      "total_frequency": 89,
+      "morphological_forms": {
+        "seinsverständnisses": 24,
+        "seinsverständnis": 65
+      },
+      "contexts": [
+        "icht der folgenden Abhandlung. Die Interpretation der Zeit als des möglichen Horizontes eines jeden Seinsverständnisses überhaupt ist ihr vorläufiges Ziel.",
+        "art an der Grenze einer bloßen Wortkenntnis bewegen - diese Unbestimmtheit des je schon verfügbaren Seinsverständnisses ist selbst ein positives Phänomen, das\nder Aufklärung be-",
+        "von Sein wird diese\njedoch nicht zu Anfang geben wollen. Die Interpretation des\ndurchschnittlichen Seinsverständnisses gewinnt ihren notwendigen Leitfaden erst mit dem ausgebildeten Begriff des Seins. Aus\nder Helle des",
+        "hen\nStruktur des Daseins selbst fundiert und motiviert, die die\nBestimmtheit eines vorontologischen Seinsverständnisses in sich\nbegreift.",
+        "ie Radikalisierung einer zum Dasein selbst\ngehörigen wesenhaften Seinstendenz, des vorontologischen Seinsverständnisses.",
+        "s einsichtig werden zu lassen,\nbedarf es einer ursprünglichen Explikation der Zeit als Horizont\ndes Seinsverständnisses aus der Zeitlichkeit als Sem des seinverstehenden Daseins. Im Ganzen dieser Aufgabe liegt zugleich",
+        "men, und es wird versucht, sie selbst aus dem Florizont des an ihr unausdrücklich-naiv\norientierten Seinsverständnisses in ihrer Seinsstruktur zu fassen.",
+        "in wesenhaft die Seinsart des In-der-Welt-seins\nzukommt, dann gehört zum wesenhaften Bestand seines Seinsverständnisses das Verstehen von In-der-Welt-sein. Das vorgängige\nErschließen dessen, woraufhin die Freigabe des i"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Seinsverständnis\" poses several translation challenges:\n  1. **Compound Nature**: It is a compound word combining \"Sein\" (Being) and \"Verständnis\" (understanding), which can be difficult to render in English without losing nuance.\n  2. **Philosophical Depth**: The term carries significant philosophical weight, as it encapsulates the pre-reflective, existential understanding of Being that is not merely cognitive but also existential and temporal.\n  3. **Contextual Fluidity**: The term's meaning can shift subtly depending on its context, reflecting different aspects of Dasein's engagement with Being.",
+      "suggested_renderings": [
+        "**:",
+        "1. \"Understanding of Being",
+        "2. \"Ontological understanding",
+        "3. \"Existential comprehension of Being"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Seinsverständnis\" can vary slightly depending on the context:\n  1. **Pre-ontological Understanding**: In some contexts, it refers to the implicit, pre-ontological understanding that Dasein has of Being, which is not yet thematized or articulated.\n  2. **Temporal Horizon**: In other contexts, it is linked to the temporal horizon, emphasizing how Dasein's understanding of Being is fundamentally temporal.\n  3. **Average Everydayness**: It can also refer to the average, everyday understanding of Being that Dasein possesses, which Heidegger seeks to analyze and deconstruct."
+    },
+    {
+      "canonical_form": "ganzheit",
+      "stem": "ganzheit",
+      "total_frequency": 70,
+      "morphological_forms": {
+        "ganzheit": 70
+      },
+      "contexts": [
+        "## § 39. Die Frage nach der ursprünglichen Ganzheit des Strukturganzen\ndes Daseins ... § 40. Die Grundbefindlichkeit der Angst als eine ausgezeichnete",
+        "es Todes der Anderen und die Erfassungsmöglichkeit eines ganzen Daseins ... §48. Ausstand, Ende und Ganzheit... § 49. Die Abgrenzung der existenzialen Analyse des Todes gegenüber\nmöglichen anderen Interpretat",
+        "ndenlassens, dieses ein Womit der Bewandtnis.\nDiese Bezüge sind unter sich selbst als ursprüngliche Ganzheit\nverklammert, sie sind, was sie sind, als dieses Be-deuten, darin\ndas Dasein ihm selbst vorgängig se",
+        "teten«\nGebrauchsdinges nicht immer schon des vorgängigen, positiven\nBlicks auf das Phänomen, dessen Ganzheit in der Rekonstruktion\nwieder hergestellt werden solid Wenn dessen eigenste Seinsverfassung zuvor ab",
+        "Weltlichkeit artikuliert in ihrer Bedeutsamkeit den bewandtnishaften\nZusammenhang einer jeweiligen Ganzheit von umsichtig angewiesenen Plätzen. Die jeweilige Welt entdeckt je die Räumlichkeit\ndes ihr zugehör",
+        "um Ausdruck kommen, ist nur der\nIndex einer bestimmten Art der Rede, die, sofern sie ist, je in der\nGanzheit der genannten Strukturen sein muß.",
+        "§39. Die Frage nach der ursprünglichen Ganzheit des\nStrukturganzen des Daseins",
+        "orbereitende Fundamentalanalyse des\nDaseins überhaupt zustrebt: wie ist existenzial-ontologisch die\nGanzheit des aufgezeigten Struktur ganzen zu bestimmen?"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Ganzheit\" poses translation challenges due to its nuanced implications of wholeness, totality, and completeness. It is not merely about physical or quantitative completeness but involves existential and ontological dimensions. The term must capture the idea of an integrated, unified structure that is essential to Heidegger's analysis of Dasein.",
+      "suggested_renderings": [
+        "**:",
+        "1. Wholeness",
+        "2. Totality",
+        "3. Completeness"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Ganzheit\" can shift slightly depending on the context. In some instances, it refers to the structural unity of Dasein, emphasizing the interconnectedness of its existential components. In other contexts, it may highlight the completeness of an existential analysis or the totality of being-towards-death. The term consistently underscores the idea of an integrated, holistic understanding of being."
+    },
+    {
+      "canonical_form": "geworfenheit",
+      "stem": "geworf",
+      "total_frequency": 66,
+      "morphological_forms": {
+        "geworfenheit": 66
+      },
+      "contexts": [
+        "§ 35. Das Gerede ... § 36. Die Neugier ... § 37. Die Zweideutigkeit... § 38. Das Verfallen und die Geworfenheit... Sechstes Kapitel\nDie Sorge als Sein des Daseins",
+        "orfenbeit dieses\nSeienden in sein Da, so zwar, daß es als In-der-Welt-sein das Da\nist. Der Ausdruck Geworfenheit soll die Faktizität der Überantwortung andeuten. Das in der Befindlichkeit des Daseins\nerschlossene",
+        "Charakter des Daseins ist sein Da in der Weise,\ndaß es sich, ob ausdrücklich oder nicht, in seiner Geworfenheit\nbefindet. In der Befindlichkeit ist das Dasein immer schon vor es\nselbst gebracht, es hat sich imme",
+        "ondern einem Fliehen entspringt. Die Stimmung erschließt nicht in der Weise des Hinblickens auf die\nGeworfenheit, sondern als An- und Abkehr. Zumeist kehrt sie\nsich nicht an den in ihr offenbaren Fastcharakter de",
+        "Wesenscharakter der\nBefindlichkeit gewinnen wir: Die Befindlichkeit erschließt das\nDasein in seiner Geworfenheit und zunächst und zumeist in der\nWeise der ausweichenden Abkehr.",
+        "Neben diesen beiden explizierten Wesensbestimmungen der\nBefindlichkeit, dem Erschließen der Geworfenheit und dem\njeweiligen Erschließen des ganzen In-der-Welt-seins ist eine dritte\nzu beachten, die vor al",
+        "Die Befindlichkeit erschließt nicht nur das Dasein in seiner\nGeworfenheit und Angewiesenheit auf die mit seinem Sein je\nschon erschlossene Welt, sie ist selbst die existenzi",
+        "sich verlaufen und verkennen. Und sofern Verstehen befindliches\nist und als dieses existenzial der Geworfenheit ausgeliefertes, hat\ndas Dasein sich je schon verlaufen und verkannt. In seinem Seinkönnen ist es da"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Geworfenheit\" presents several translation challenges due to its rich philosophical implications and the nuances of the German language. It combines the notion of being \"thrown\" with a state of existence, implying an involuntary and pre-existing condition of being. The term captures the existential reality of being placed into a world with pre-existing conditions and contexts, which is difficult to convey succinctly in English.",
+      "suggested_renderings": [
+        "**:",
+        "1. Thrownness",
+        "2. Facticity of being-thrown",
+        "3. Existential thrownness"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Geworfenheit\" remains relatively consistent across different contexts in \"Being and Time,\" as it consistently refers to the existential condition of Dasein being \"thrown\" into the world. However, its implications can vary slightly depending on the surrounding discussion, such as when it is linked to concepts like \"Befindlichkeit\" (state-of-mind) or \"Verstehen\" (understanding), which highlight different aspects of how Dasein navigates its thrown condition. In some contexts, it emphasizes the passive aspect of being placed into a world, while in others, it underscores the active engagement with the conditions of one's existence."
+    },
+    {
+      "canonical_form": "angst",
+      "stem": "angst",
+      "total_frequency": 132,
+      "morphological_forms": {
+        "angst": 132
+      },
+      "contexts": [
+        "ch der ursprünglichen Ganzheit des Strukturganzen\ndes Daseins ... § 40. Die Grundbefindlichkeit der Angst als eine ausgezeichnete Er-\nschlossenheit des Daseins ... § 41. Das Sein des Daseins als Sorge ...",
+        "terpretation einer solchen existenzial-ontologisch bedeutsamen Grundbefindlichkeit\ndes Daseins, der Angst (vgl. § 40), soll das Phänomen der Befindlichkeit an dem bestimmten Modus der Furcht noch konkreter",
+        "Als eine solchen methodischen Erfordernissen genügende\nBefindlichkeit wird das Phänomen der Angst der Analyse\nzugrundegelegt. Die Herausarbeitung dieser Grundbefindlichkeit\nund die ontologische Cha",
+        "s in ihr Erschlossenen als\nsolchen nimmt den Ausgang von dem Phänomen des Verfallens\nund grenzt die Angst ab gegen das früher analysierte verwandte\nPhänomen der Furcht. Die Angst gibt als Seinsmöglichkeit",
+        "Verfallens\nund grenzt die Angst ab gegen das früher analysierte verwandte\nPhänomen der Furcht. Die Angst gibt als Seinsmöglichkeit des\nDaseins in eins mit dem in ihr erschlossenen Dasein selbst den\nphänom",
+        "er vorbereitenden Fundamentalanalyse des\nDaseins hat demnach zum Thema: Die Grundbefindlichkeit der\nAngst als eine ausgezeichnete Erschlossenheit des Daseins (§ 40),\ndas Sein des Daseins als Sorge (§ 41),",
+        "## § 40. Die Grundbefindlichkeit der Angst als eine ausgezeichnete\nErschlossenheit des Daseins",
+        "m Dasein gehörenden Erschlossenheit, die in Befindlichkeit und\nVerstehen gründet. Inwiefern ist die Angst eine ausgezeichnete\nBefindlichkeit? Wie wird in ihr das Dasein durch sein eigenes Sein\nvor es selbs"
+      ],
+      "philosophical_importance": 9,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"angst\" in Heidegger's work is challenging to translate because it carries specific existential and ontological connotations that differ from the everyday use of \"anxiety\" or \"fear.\" It is not merely a psychological state but a profound existential condition that reveals the nature of Dasein's being.",
+      "suggested_renderings": [
+        "**:",
+        "1. Anxiety",
+        "2. Existential dread",
+        "3. Angst (retaining the original German term to preserve its philosophical nuance)"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"angst\" in \"Being and Time\" can shift slightly depending on the context. It is often contrasted with \"fear\" (Furcht), which is directed towards specific entities or situations, whereas \"angst\" is a more generalized, objectless state that reveals the nothingness and groundlessness of existence. In different sections, it may emphasize different aspects of Dasein's confrontation with its own potentiality-for-being and the inherent uncertainty of existence."
+    },
+    {
+      "canonical_form": "bedingung",
+      "stem": "beding",
+      "total_frequency": 56,
+      "morphological_forms": {
+        "bedingung": 44,
+        "bedingungen": 12
+      },
+      "contexts": [
+        "Die Seinsfrage zielt daher auf eine apriorische Bedingung der\nMöglichkeit nicht nur der Wissenschaften, die Seiendes als so und\nso Seiendes durchforschen und",
+        "o Seiendes durchforschen und sich dabei je schon in einem\nSeinsverständnis bewegen, sondern auf die Bedingung der Möglichkeit der vor den ontischen Wissenschaften liegenden und sie\nfundierenden Ontologien selb",
+        "es nicht\ndaseinsmäßigen Seienden. Das Dasein hat daher den dritten Vorrang als ontisch-ontologische Bedingung der Möglichkeit aller\nOntologien. Das Dasein hat sich so als das vor allem anderen\nSeienden ontolog",
+        "keit des\nDaseins. Dessen Sein findet seinen Sinn in der Zeitlichkeit. Diese\njedoch ist zugleich die Bedingung der Möglichkeit von\nGeschichtlichkeit als einer zeitlichen Seinsart des Daseins selbst,\nabgesehen d",
+        "tik ist dann,\nsofern sie die Geschichtlichkeit des Daseins ontologisch ausarbeitet als die ontische Bedingung der Möglichkeit der Historie, das\nverwurzelt, was nur abgeleiteterweise »Hermeneutik« genannt\nwerde",
+        "in ist\nferner Seiendes, das je ich selbst bin. Zum existierenden Dasein\ngehört die Jemeinigkeit als Bedingung der Möglichkeit von\nEigentlichkeit und Uneigentlichkeit. Dasein existiert je in einem\ndieser Modi,",
+        "unumsichtiges, »thematisches« Erfassen unthematisch bleiben.\nDas Sich-nicht-melden der Welt ist die Bedingung der Möglichkeit des Nichtheraustretens des Zuhandenen aus seiner Unauffälligkeit. Und darin konstit",
+        "eisung) aber als Zeugverfassung ist auch keine Geeignetheit eines Seienden, sondern die\nseinsmäßige Bedingung der Möglichkeit dafür, daß es durch\nGeeignetheiten bestimmt sein kann. Was soll aber dann Verweisun"
+      ],
+      "philosophical_importance": 8,
+      "is_core_concept": true,
+      "translation_challenges": "**:  \n  The term \"Bedingung\" poses translation challenges due to its nuanced philosophical implications. It is often used in conjunction with \"Möglichkeit\" (possibility), which adds layers of meaning related to potentiality and foundational conditions. The term must capture both the conditional and enabling aspects of existence and understanding.",
+      "suggested_renderings": [
+        "**:",
+        "1. Condition",
+        "2. Prerequisite",
+        "3. Enabling condition"
+      ],
+      "contextual_variations": "**:  \n  The meaning of \"Bedingung\" can shift slightly depending on the context. In some instances, it refers to the ontological conditions necessary for understanding or existence (e.g., the condition for the possibility of science or history). In other contexts, it might emphasize the existential conditions specific to Dasein, such as the conditions for authenticity or inauthenticity. The term consistently points to foundational aspects that make other phenomena possible, but the specific nature of these conditions can vary based on the subject matter being addressed."
+    }
+  ]
+}
