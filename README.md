@@ -2,9 +2,7 @@
 
 ## 🎯 See the Results
 
-**[→ Four Minds on Being: Complete Analysis](final_analysis_paragraph_77.md)** - See how four AI models translate and critique each other's work on the same Heidegger passage
-
-**[→ Four Minds on Being PDF](four_minds_on_being.pdf)** *(optional)* - Polished academic analysis, or run `./generate_analysis_pdf.sh` to create
+**[→ Four Minds on Being (PDF)](https://github.com/klutometis/heidegger/blob/main/four_minds_on_being.pdf)** - See how four AI models translate and critique each other's work on the same Heidegger passage
 
 ## Overview
 
