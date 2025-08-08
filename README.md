@@ -4,7 +4,7 @@
 
 **[→ Four Minds on Being: Complete Analysis](final_analysis_paragraph_77.md)** - See how four AI models translate and critique each other's work on the same Heidegger passage
 
-**[→ Generate PDF](./generate_analysis_pdf.sh)** - Create a polished academic PDF: `four_minds_on_being.pdf`
+**[→ Four Minds on Being PDF](four_minds_on_being.pdf)** *(optional)* - Polished academic analysis, or run `./generate_analysis_pdf.sh` to create
 
 ## Overview
 
