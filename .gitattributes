@@ -1,0 +1,4 @@
+# Git-crypt encryption for translation files (2046 cohort)
+full_translation_*.md filter=git-crypt diff=git-crypt
+cleaned_text.md filter=git-crypt diff=git-crypt
+sein_und_zeit_djvu.txt filter=git-crypt diff=git-crypt
