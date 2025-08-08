@@ -1,6 +1,7 @@
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_xai import ChatXAI
 from langchain_core.language_models import BaseChatModel
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough, RunnableLambda
@@ -58,7 +59,7 @@ class Translator:
             # Remove max_tokens for Gemini (uses max_output_tokens instead)
             gemini_kwargs = {k: v for k, v in defaults.items() if k != "max_tokens"}
             # Use flexible token limit with higher default for philosophical content
-            gemini_kwargs["max_output_tokens"] = kwargs.get("max_output_tokens", 4000)
+            gemini_kwargs["max_output_tokens"] = kwargs.get("max_output_tokens", 8000)
                 
             # Add safety settings and API key explicitly
             gemini_kwargs["safety_settings"] = safety_settings
@@ -66,6 +67,11 @@ class Translator:
                 gemini_kwargs["google_api_key"] = os.environ["GOOGLE_API_KEY"]
                 
             return ChatGoogleGenerativeAI(model=model_name, **gemini_kwargs)
+        elif model_name.startswith("grok"):
+            # Increase token limit for complex meta-commentary tasks
+            grok_kwargs = {k: v for k, v in defaults.items()}
+            grok_kwargs["max_tokens"] = kwargs.get("max_tokens", 4000)  # Increase from default 2000
+            return ChatXAI(model=model_name, **grok_kwargs)
         else:
             raise ValueError(f"Unsupported model: {model_name}")
     
@@ -112,9 +118,9 @@ class Translator:
         # Build prompt template for structured output
         prompt_builder = TranslationPromptBuilder()
         
-        # Use structured output - Gemini needs explicit format instructions
-        if self.model_name.startswith("gemini"):
-            # Use PydanticOutputParser for Gemini
+        # Use structured output - Gemini, Claude, and Grok need explicit format instructions
+        if self.model_name.startswith("gemini") or self.model_name.startswith("claude") or self.model_name.startswith("grok"):
+            # Use PydanticOutputParser for models with structured output issues
             parser = PydanticOutputParser(pydantic_object=PhilosophicalTranslation)
             # Escape JSON braces so LangChain doesn't treat them as template variables
             format_instructions = parser.get_format_instructions().replace("{", "{{").replace("}", "}}")
@@ -124,6 +130,7 @@ class Translator:
             )
             structured_llm = self.model | parser
         else:
+            # Only GPT gets the clean approach
             prompt_template = prompt_builder.build_translation_prompt()
             structured_llm = self.model.with_structured_output(PhilosophicalTranslation)
         

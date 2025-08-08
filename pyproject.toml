@@ -21,6 +21,7 @@ pyyaml = "*"
 langchain = "*"
 langchain-openai = "*"
 langchain-anthropic = "*"
+langchain-xai = "*"
 
 [build-system]
 requires = ["poetry-core"]
